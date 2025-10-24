@@ -15,6 +15,10 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 print("=" * 70)
 print("PHASE 3: VALIDATION & REAL API TESTING")
