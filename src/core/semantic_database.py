@@ -11,7 +11,7 @@ from typing import List, Optional, Dict, Tuple
 from pathlib import Path
 import pandas as pd
 
-from semantic_coordinates import SemanticCoordinate, AnchorPoint
+from .semantic_coordinates import SemanticCoordinate, AnchorPoint
 
 
 class SemanticDatabase:

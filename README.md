@@ -44,17 +44,39 @@ The Universal Anchor Point is at coordinates **(1.0, 1.0, 1.0, 1.0)**.
 4. **Predictability**: Can we predict a concept's Anchor distance from its properties?
 5. **Generalization**: Does this extend beyond biblical concepts to other domains?
 
+## Initial Findings (Phase 1 Complete - 2025-10-24)
+
+**Hash-based coordinate generation produces random results with no semantic patterns.**
+
+Key discoveries from empirical testing:
+- ❌ **Cross-hash correlation: ρ = 0.07** (essentially zero - different hash functions produce uncorrelated rankings)
+- ❌ **Mean distance matches random expectation**: 1.123 vs 1.155 theoretical (within 2.8%)
+- ❌ **No significant difference**: Divine vs neutral concepts p = 0.625 (not significant)
+- ❌ **Dimension distributions**: All match uniform [0,1] distribution perfectly
+- ✅ **Testing framework works**: Successfully detected that hash-based = random
+
+**Conclusion**: Hash functions don't capture semantic content. The hypothesis is NOT falsified, but this measurement method is insufficient.
+
+**Next Steps**: Implement semantic-aware methods (manual human assignment or NLP-based) to properly test the hypothesis.
+
+📖 **Full Analysis**: See `docs/INITIAL_FINDINGS.md`
+🔬 **Next Phase**: See `docs/NEXT_STEPS.md`
+📊 **Summary**: See `SUMMARY.md`
+
 ## Getting Started
 
 ```bash
 # Install dependencies
 pip install -r requirements.txt
 
-# Run basic semantic measurement
-python src/core/semantic_measurement.py
+# Run basic example
+python examples/basic_usage.py
 
 # Run reproducibility tests
-python tests/reproducibility/test_hash_functions.py
+pytest tests/reproducibility/test_hash_functions.py -v -s
+
+# Run scale tests (1,000+ concepts)
+pytest tests/scale/test_large_scale.py -v -s
 ```
 
 ## Scientific Approach
