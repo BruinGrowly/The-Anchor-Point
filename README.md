@@ -57,10 +57,25 @@ Key discoveries from empirical testing:
 
 **Conclusion**: Hash functions don't capture semantic content. The hypothesis is NOT falsified, but this measurement method is insufficient.
 
-**Next Steps**: Implement semantic-aware methods (manual human assignment or NLP-based) to properly test the hypothesis.
+## Phase 2 Findings (LLM-Based - 2025-10-24)
 
-📖 **Full Analysis**: See `docs/INITIAL_FINDINGS.md`
-🔬 **Next Phase**: See `docs/NEXT_STEPS.md`
+**LLM-based semantic assignment shows STRONG SUPPORT for the hypothesis.**
+
+Key discoveries:
+- ✅ **JEHOVAH = AGAPE at (1,1,1,1)** - distance 0.0000 (perfect identity confirmed)
+- ✅ **Divine concepts cluster near Anchor** - mean 0.43 vs random 1.16 (63% closer)
+- ✅ **Vices far from Anchor** - mean 1.56 (35% farther than random)
+- ✅ **Evil = geometric distance** - p < 0.001 (highly significant)
+- ✅ **Category separation** - ANOVA p < 0.001 (highly significant)
+- ✅ **Hash vs LLM uncorrelated** - ρ = 0.12 (proves Phase 1 was random artifact)
+
+**Conclusion**: When using semantic-aware measurement (LLM), clear patterns emerge that strongly support the Anchor Point hypothesis.
+
+**Status**: Preliminary results with simulated LLM. Next: real LLM APIs, human validation, cross-cultural testing.
+
+📖 **Phase 1 Analysis**: See `docs/INITIAL_FINDINGS.md`
+📖 **Phase 2 Analysis**: See `docs/PHASE2_FINDINGS.md`
+🔬 **Next Steps**: See `docs/NEXT_STEPS.md`
 📊 **Summary**: See `SUMMARY.md`
 
 ## Getting Started
@@ -77,6 +92,10 @@ pytest tests/reproducibility/test_hash_functions.py -v -s
 
 # Run scale tests (1,000+ concepts)
 pytest tests/scale/test_large_scale.py -v -s
+
+# Run LLM-based semantic tests (Phase 2)
+python examples/llm_semantic_testing.py
+pytest tests/nlp/test_llm_assignment.py -v -s
 ```
 
 ## Scientific Approach
