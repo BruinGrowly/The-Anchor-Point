@@ -42,3 +42,6 @@ sphinx-rtd-theme>=1.2.0
 tqdm>=4.65.0  # Progress bars
 python-dotenv>=1.0.0  # Environment variables
 pyyaml>=6.0  # Configuration files
+
+# API integrations (Phase 3)
+anthropic>=0.18.0  # Claude API for real semantic analysis
