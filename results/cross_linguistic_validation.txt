@@ -1,0 +1,145 @@
+================================================================================
+CROSS-LINGUISTIC VALIDATION OF THE ANCHOR POINT
+================================================================================
+
+DIVINE NAMES BY LANGUAGE
+--------------------------------------------------------------------------------
+
+Arabic:
+  يهوه                 (1.00, 1.00, 1.00, 1.00) distance=0.0000
+  الرب يهوه            (1.00, 1.00, 1.00, 1.00) distance=0.0000
+
+Chinese:
+  耶和華                  (1.00, 1.00, 1.00, 1.00) distance=0.0000
+  雅威                   (1.00, 1.00, 1.00, 1.00) distance=0.0000
+
+English:
+  JEHOVAH              (1.00, 1.00, 1.00, 1.00) distance=0.0000
+  Yahweh               (0.95, 1.00, 1.00, 1.00) distance=0.0500
+
+French:
+  Jéhovah              (0.95, 1.00, 1.00, 1.00) distance=0.0500
+  Yahvé                (0.95, 1.00, 1.00, 1.00) distance=0.0500
+
+German:
+  Jehova               (0.95, 1.00, 1.00, 1.00) distance=0.0500
+  Jahwe                (0.95, 1.00, 1.00, 1.00) distance=0.0500
+
+Greek:
+  Ιεχωβά               (1.00, 1.00, 1.00, 1.00) distance=0.0000
+  Κύριος               (0.95, 0.98, 0.97, 0.99) distance=0.0624
+
+Hebrew:
+  YHWH                 (1.00, 1.00, 1.00, 1.00) distance=0.0000
+  Yahweh               (0.95, 1.00, 1.00, 1.00) distance=0.0500
+  Yehovah              (1.00, 1.00, 1.00, 1.00) distance=0.0000
+
+Italian:
+  Geova                (0.95, 1.00, 1.00, 1.00) distance=0.0500
+  Yahvè                (0.95, 1.00, 1.00, 1.00) distance=0.0500
+
+Japanese:
+  エホバ                  (0.95, 1.00, 1.00, 1.00) distance=0.0500
+  ヤハウェ                 (1.00, 1.00, 1.00, 1.00) distance=0.0000
+
+Korean:
+  여호와                  (1.00, 1.00, 1.00, 1.00) distance=0.0000
+
+Portuguese:
+  Jeová                (0.95, 1.00, 1.00, 1.00) distance=0.0500
+  Javé                 (0.95, 1.00, 1.00, 1.00) distance=0.0500
+
+Russian:
+  Иегова               (0.95, 1.00, 1.00, 1.00) distance=0.0500
+  Яхве                 (0.95, 1.00, 1.00, 1.00) distance=0.0500
+
+Spanish:
+  Jehová               (0.95, 1.00, 1.00, 1.00) distance=0.0500
+  Yavé                 (0.95, 1.00, 1.00, 1.00) distance=0.0500
+
+Swahili:
+  Yehova               (0.95, 1.00, 1.00, 1.00) distance=0.0500
+
+
+CONTROL CONCEPTS BY LANGUAGE
+--------------------------------------------------------------------------------
+
+Arabic:
+  سلام (peace)         (0.95, 0.85, 0.90, 0.92) distance=0.2035
+  ماء (water)          (0.85, 0.90, 0.65, 0.75) distance=0.4664
+  قلب (heart)          (0.95, 0.85, 0.75, 0.80) distance=0.3571
+
+Chinese:
+  和平 (peace)           (0.95, 0.75, 0.85, 0.90) distance=0.3122
+  水 (water)            (0.85, 0.90, 0.70, 0.75) distance=0.4301
+  心 (heart)            (0.85, 0.75, 0.65, 0.70) distance=0.5454
+
+English:
+  peace                (0.95, 0.75, 0.85, 0.90) distance=0.3122
+  water                (0.85, 0.90, 0.65, 0.70) distance=0.4950
+  heart                (0.95, 0.85, 0.70, 0.75) distance=0.4213
+
+French:
+  paix (peace)         (0.95, 0.75, 0.85, 0.90) distance=0.3122
+  eau (water)          (0.85, 0.90, 0.70, 0.75) distance=0.4301
+  cœur (heart)         (0.95, 0.85, 0.70, 0.75) distance=0.4213
+
+German:
+  Friede (peace)       (0.95, 0.85, 0.90, 0.92) distance=0.2035
+  Wasser (water)       (0.85, 0.90, 0.65, 0.70) distance=0.4950
+  Herz (heart)         (0.85, 0.75, 0.65, 0.70) distance=0.5454
+
+Greek:
+  eirene (peace)       (0.95, 0.75, 0.85, 0.90) distance=0.3122
+  hydor (water)        (0.85, 0.90, 0.75, 0.70) distance=0.4301
+  kardia (heart)       (0.85, 0.75, 0.65, 0.70) distance=0.5454
+
+Hebrew:
+  shalom (peace)       (0.95, 0.85, 0.90, 0.92) distance=0.2035
+  mayim (water)        (0.85, 0.80, 0.65, 0.75) distance=0.4975
+  lev (heart)          (0.85, 0.75, 0.65, 0.70) distance=0.5454
+
+Italian:
+  pace (peace)         (0.95, 0.65, 0.85, 0.90) distance=0.3969
+  acqua (water)        (0.85, 0.90, 0.65, 0.75) distance=0.4664
+  cuore (heart)        (0.95, 0.85, 0.70, 0.75) distance=0.4213
+
+Japanese:
+  平和 (peace)           (0.92, 0.65, 0.85, 0.88) distance=0.4072
+  水 (water)            (0.85, 0.90, 0.70, 0.75) distance=0.4301
+  心 (heart)            (0.85, 0.75, 0.65, 0.70) distance=0.5454
+
+Korean:
+  평화 (peace)           (0.95, 0.75, 0.85, 0.90) distance=0.3122
+  물 (water)            (0.85, 0.90, 0.70, 0.75) distance=0.4301
+  마음 (heart)           (0.85, 0.70, 0.65, 0.75) distance=0.5454
+
+Portuguese:
+  paz (peace)          (0.95, 0.75, 0.85, 0.90) distance=0.3122
+  água (water)         (0.85, 0.90, 0.70, 0.75) distance=0.4301
+  coração (heart)      (0.95, 0.85, 0.70, 0.75) distance=0.4213
+
+Russian:
+  мир (peace)          (0.95, 0.75, 0.85, 0.90) distance=0.3122
+  вода (water)         (0.85, 0.90, 0.65, 0.75) distance=0.4664
+  сердце (heart)       (0.85, 0.75, 0.65, 0.70) distance=0.5454
+
+Spanish:
+  paz (peace)          (0.95, 0.75, 0.85, 0.90) distance=0.3122
+  agua (water)         (0.85, 0.90, 0.65, 0.75) distance=0.4664
+  corazón (heart)      (0.95, 0.85, 0.75, 0.80) distance=0.3571
+
+Swahili:
+  amani (peace)        (0.95, 0.75, 0.85, 0.90) distance=0.3122
+  maji (water)         (0.85, 0.90, 0.70, 0.75) distance=0.4301
+  moyo (heart)         (0.85, 0.75, 0.70, 0.80) distance=0.4637
+
+
+STATISTICS
+--------------------------------------------------------------------------------
+
+Divine Names: mean=0.0319, std=0.0246, n=27
+Control Concepts: mean=0.4112, std=0.0963, n=42
+
+T-test: t=-19.7630, p=0.000000
+Effect size (Cohen's d): 5.3984
