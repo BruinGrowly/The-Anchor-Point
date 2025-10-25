@@ -44,6 +44,7 @@ This repository contains:
 - **Neutral approach**: Focus on JEHOVAH, let other concepts be analyzed by AI
 - **Statistical validation**: Testing whether data supports the Anchor Point hypothesis
 - **Computational tools**: Semantic coordinate analysis and distance metrics
+- **Phi-geometric enhancements**: Golden ratio based distance calculations (NEW!)
 
 ---
 
@@ -135,15 +136,22 @@ This repository contains:
 - 📖 `docs/PHASE3_REAL_API_FINDINGS.md` - Phase 3 (Real Claude API)
 - 📖 `docs/PHASE4_EXPANDED_VALIDATION.md` - Phase 4 (75 concepts)
 - 📖 `docs/SEMANTIC_SUBSTRATE_STRUCTURE.md` - **Substrate structure analysis**
+- 📖 `docs/PHI_GEOMETRIC_ENHANCEMENTS.md` - **NEW: Phi-geometric distance metrics**
 
 ### Biblical Framework:
 - 🎯 `src/data/theological_coordinates.py` - JEHOVAH and AGAPE coordinates from Scripture
+
+### Core Framework:
+- `src/core/semantic_coordinates.py` - 4D coordinate system with enhanced phi-geometric metrics
+- `src/core/phi_geometric.py` - **NEW: Golden ratio based calculations**
+- `src/analysis/common_utils.py` - **NEW: Consolidated analysis utilities**
 
 ### Analysis Tools:
 - `analyze_real_api.py` - Detailed Phase 3 analysis
 - `analyze_phase4.py` - Comprehensive Phase 4 analysis
 - `analyze_substrate_structure.py` - **Semantic substrate structure analysis**
 - `examples/phase4_expanded_testing.py` - Full 75-concept test suite
+- `test_enhancements.py` - **NEW: Phi-geometric validation tests**
 
 ---
 

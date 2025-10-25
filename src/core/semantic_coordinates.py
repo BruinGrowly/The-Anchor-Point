@@ -17,6 +17,22 @@ from typing import Tuple, List, Dict, Optional
 from dataclasses import dataclass
 import hashlib
 
+# Import phi-geometric enhancements (optional - graceful fallback)
+try:
+    from .phi_geometric import (
+        golden_spiral_distance_4d,
+        phi_harmony_score,
+        nearest_anchor as find_nearest_dodecahedral_anchor,
+        generate_dodecahedral_anchors,
+        PHI,
+        PHI_INVERSE,
+    )
+    PHI_GEOMETRIC_AVAILABLE = True
+except ImportError:
+    PHI_GEOMETRIC_AVAILABLE = False
+    PHI = 1.618033988749895
+    PHI_INVERSE = 0.618033988749895
+
 
 @dataclass
 class SemanticCoordinate:
@@ -85,6 +101,90 @@ class SemanticCoordinate:
         """
         max_distance = 2.0  # Maximum possible distance in unit hypercube
         return 1.0 - (self.distance_to_anchor() / max_distance)
+
+    def phi_distance_to_anchor(self) -> float:
+        """
+        Calculate phi-geometric (golden spiral) distance to Anchor Point.
+
+        This uses the golden spiral arc length metric, which provides a more
+        "organic" measure of semantic distance aligned with natural growth patterns.
+
+        Requires phi_geometric module. Falls back to Euclidean if unavailable.
+
+        Returns:
+            Golden spiral distance from this concept to the Anchor Point
+        """
+        if not PHI_GEOMETRIC_AVAILABLE:
+            # Graceful fallback to Euclidean
+            return self.distance_to_anchor()
+
+        anchor = np.array([1.0, 1.0, 1.0, 1.0])
+        return float(golden_spiral_distance_4d(self.vector, anchor))
+
+    def phi_distance_to(self, other: 'SemanticCoordinate') -> float:
+        """
+        Calculate phi-geometric distance to another semantic coordinate.
+
+        Args:
+            other: Another semantic coordinate
+
+        Returns:
+            Golden spiral distance between the two points
+        """
+        if not PHI_GEOMETRIC_AVAILABLE:
+            # Graceful fallback to Euclidean
+            return self.distance_to(other)
+
+        return float(golden_spiral_distance_4d(self.vector, other.vector))
+
+    def phi_harmony(self) -> float:
+        """
+        Calculate how well this coordinate aligns with phi-harmonic patterns.
+
+        Higher scores indicate stronger alignment with golden ratio proportions,
+        suggesting natural/divine semantic structure.
+
+        Returns:
+            Harmony score [0.0, 1.0], where 1.0 = perfect phi-harmony
+        """
+        if not PHI_GEOMETRIC_AVAILABLE:
+            return 0.0
+
+        return phi_harmony_score(self.vector)
+
+    def nearest_dodecahedral_anchor(self) -> Tuple[int, float]:
+        """
+        Find the nearest anchor in the dodecahedral anchor network.
+
+        The dodecahedral network provides 12 reference points arranged
+        in golden ratio symmetry for optimal semantic space coverage.
+
+        Returns:
+            Tuple of (anchor_index, distance) where index 0 is the primary
+            Anchor Point at (1,1,1,1) and 1-11 are secondary anchors
+        """
+        if not PHI_GEOMETRIC_AVAILABLE:
+            # Fallback: just return distance to primary anchor
+            return (0, self.distance_to_anchor())
+
+        return find_nearest_dodecahedral_anchor(self.vector, metric='phi_spiral')
+
+    def distance_metrics(self) -> Dict[str, float]:
+        """
+        Calculate multiple distance metrics to Anchor Point for comparison.
+
+        Returns:
+            Dictionary with 'euclidean', 'phi_spiral', 'phi_harmony' metrics
+        """
+        metrics = {
+            'euclidean': self.distance_to_anchor(),
+        }
+
+        if PHI_GEOMETRIC_AVAILABLE:
+            metrics['phi_spiral'] = self.phi_distance_to_anchor()
+            metrics['phi_harmony'] = self.phi_harmony()
+
+        return metrics
 
     def __repr__(self) -> str:
         return (f"SemanticCoordinate(concept='{self.concept}', "
