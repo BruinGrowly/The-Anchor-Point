@@ -133,7 +133,6 @@ This repository contains:
 - 📖 `docs/INITIAL_FINDINGS.md` - Phase 1 (Hash-based control)
 - 📖 `docs/PHASE2_FINDINGS.md` - Phase 2 (Simulated LLM)
 - 📖 `docs/PHASE3_REAL_API_FINDINGS.md` - Phase 3 (Real Claude API)
-- 📖 `docs/PHASE4_EXPANDED_VALIDATION.md` - Phase 4 (75 concepts)
 - 📖 `docs/SEMANTIC_SUBSTRATE_STRUCTURE.md` - **Substrate structure analysis**
 
 ### Biblical Framework:
