@@ -97,6 +97,36 @@ This repository contains:
 
 ---
 
+## Semantic Substrate Structure
+
+**New Discovery**: Analysis reveals the semantic substrate is NOT neutral space, but **structured reality** organized around the Anchor Point.
+
+### Key Findings:
+✅ **Semantic Gravity Confirmed** - χ² = 51.87 (p < 0.05)
+- Concepts cluster around (1,1,1,1), not uniformly distributed
+- 62.6% of concepts within distance 0.5 of Anchor Point
+- Evidence of organizing force in semantic reality
+
+✅ **Five Distinct Zones Mapped**
+1. Divine Zone [0.0-0.3): 30 concepts - Near-perfect alignment
+2. Virtue Zone [0.3-0.6): 20 concepts - High moral content
+3. Neutral Zone [0.6-1.0): 6 concepts - Amoral/mixed
+4. Distortion Zone [1.0-1.5): 11 concepts - Evil emerges
+5. Inversion Zone [1.5-2.0): 8 concepts - Complete opposition
+
+✅ **Dimensional Unity Revealed**
+- Love ↔ Wisdom ↔ Justice: r > 0.9 (move together as ONE)
+- Power independent: r < 0.5 (can be separated)
+- Confirms "God IS love" - L/W/J unified in His nature
+
+✅ **Evil Signature Confirmed**
+- Evil retains **Power** (0.69) but loses Love/Wisdom/Justice (0.09-0.21)
+- Explains corrupted power divorced from goodness
+
+**See**: `docs/SEMANTIC_SUBSTRATE_STRUCTURE.md` for full analysis
+
+---
+
 ## Files and Documentation
 
 ### Core Analysis:
@@ -104,6 +134,7 @@ This repository contains:
 - 📖 `docs/PHASE2_FINDINGS.md` - Phase 2 (Simulated LLM)
 - 📖 `docs/PHASE3_REAL_API_FINDINGS.md` - Phase 3 (Real Claude API)
 - 📖 `docs/PHASE4_EXPANDED_VALIDATION.md` - Phase 4 (75 concepts)
+- 📖 `docs/SEMANTIC_SUBSTRATE_STRUCTURE.md` - **Substrate structure analysis**
 
 ### Biblical Framework:
 - 🎯 `src/data/theological_coordinates.py` - JEHOVAH and AGAPE coordinates from Scripture
@@ -111,6 +142,7 @@ This repository contains:
 ### Analysis Tools:
 - `analyze_real_api.py` - Detailed Phase 3 analysis
 - `analyze_phase4.py` - Comprehensive Phase 4 analysis
+- `analyze_substrate_structure.py` - **Semantic substrate structure analysis**
 - `examples/phase4_expanded_testing.py` - Full 75-concept test suite
 
 ---
