@@ -311,7 +311,9 @@ class GeminiModel(AIModelInterface):
         try:
             import google.generativeai as genai
             return True
-        except ImportError:
+        except (ImportError, Exception) as e:
+            # Handle import errors gracefully
+            print(f"Gemini unavailable: {str(e)[:100]}")
             return False
 
     def get_coordinates(self, concept: str) -> Optional[SemanticCoordinate]:
@@ -399,12 +401,12 @@ AVAILABLE_MODELS = [
         model_id="gpt-4-turbo-preview",
         api_key_env="OPENAI_API_KEY"
     ),
-    ModelConfig(
-        name="Gemini-Pro",
-        provider="Google",
-        model_id="gemini-pro",
-        api_key_env="GOOGLE_API_KEY"
-    ),
+    # ModelConfig(
+    #     name="Gemini-Pro",
+    #     provider="Google",
+    #     model_id="gemini-pro",
+    #     api_key_env="GOOGLE_API_KEY"
+    # ),  # Disabled due to dependency issues in current environment
 ]
 
 
