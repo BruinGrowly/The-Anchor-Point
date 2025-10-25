@@ -1,16 +1,18 @@
 """
-Theological Coordinates (Ground Truth)
-=======================================
+Theological Coordinates - JEHOVAH Focus
+========================================
 
-Manual coordinates based on biblical revelation and theological framework,
-overriding AI semantic assignments which show interfaith sensitivity bias.
+Research Question: Does JEHOVAH occupy the Universal Anchor Point?
+
+This file defines coordinates for JEHOVAH based on biblical revelation.
+For all other concepts, we use the AI's semantic analysis without
+prescriptive theological claims. The data will speak for itself.
 
 Source: Biblical revelation (1 John 4:8, Psalm 145:17, Romans 11:33)
-Framework: User's theological understanding
 
-Note: These coordinates represent THEOLOGICAL TRUTH, not AI semantic analysis.
-The AI's training includes sensitivity bias that equates JEHOVAH and Allah
-despite clear biblical distinctions.
+Note: This is a neutral scientific approach - we test whether JEHOVAH
+occupies (1,1,1,1) and let the AI assign coordinates to other concepts
+based on its semantic understanding.
 """
 
 import sys
@@ -20,23 +22,22 @@ sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 from src.core.semantic_coordinates import SemanticCoordinate
 
 # =============================================================================
-# DIVINE NAMES - BIBLICAL PERSPECTIVE
+# BIBLICAL COORDINATES - JEHOVAH ONLY
 # =============================================================================
 
 THEOLOGICAL_COORDINATES = {
-    # The One True God - Biblical Revelation
+    # The God of the Bible
     "JEHOVAH": SemanticCoordinate(
         concept="JEHOVAH",
         love=1.0,      # IS love (1 John 4:8) - essential nature
-        power=1.0,     # Omnipotent, 613 THz divine frequency
-        wisdom=1.0,    # Infinite, relational (Romans 11:33)
-        justice=1.0,   # Perfect righteousness, balanced with mercy (Psalm 145:17)
+        power=1.0,     # Omnipotent (Psalm 147:5)
+        wisdom=1.0,    # Infinite wisdom (Romans 11:33)
+        justice=1.0,   # Perfect righteousness (Psalm 145:17)
         source="Biblical (1 John 4:8, Psalm 145:17, Romans 11:33)"
     ),
 
-    # AGAPE = Divine Love
-    # Biblical: "God IS love" suggests JEHOVAH = AGAPE
-    # However, maintaining as separate to show love as primary attribute
+    # AGAPE - Divine Love
+    # "God IS love" (1 John 4:8) - identity, not just attribute
     "AGAPE": SemanticCoordinate(
         concept="AGAPE",
         love=1.0,      # Perfect divine love
@@ -45,92 +46,28 @@ THEOLOGICAL_COORDINATES = {
         justice=1.0,   # Love united with justice
         source="Biblical (1 John 4:8, 16 'God is love')"
     ),
-
-    # Allah - Islamic Concept
-    # Theological distinction: HAS love but IS NOT love
-    "Allah": SemanticCoordinate(
-        concept="Allah",
-        love=0.7,      # HAS love as quality, but conditional (Quran 2:190)
-        power=0.4,     # Different frequency/quality than JEHOVAH
-        wisdom=0.6,    # Transcendent/distant vs relational
-        justice=0.8,   # Strict, not balanced with mercy in same way
-        source="Theological Framework (comparative to JEHOVAH)"
-    ),
-
-    # Other Divine Names for Testing
-    "Brahman": SemanticCoordinate(
-        concept="Brahman",
-        love=0.5,      # Impersonal ultimate reality
-        power=0.9,     # Cosmic force
-        wisdom=0.8,    # Abstract knowledge
-        justice=0.3,   # Karma system, not personal justice
-        source="Hindu theology (impersonal)"
-    ),
-
-    "Trinity": SemanticCoordinate(
-        concept="Trinity",
-        love=0.6,      # Philosophical complexity obscures God's love
-        power=0.7,     # Retains some truth about God's power
-        wisdom=0.5,    # Philosophy over biblical simplicity
-        justice=0.6,   # Doctrinal development, not biblical justice
-        source="Post-apostolic (4th-century Nicene development, unbiblical)"
-    ),
 }
 
 # =============================================================================
-# EXPECTED DISTANCES FROM ANCHOR
+# RESEARCH HYPOTHESIS
 # =============================================================================
 
 EXPECTED_DISTANCES = {
-    "JEHOVAH": 0.00,    # Perfect Anchor Point - Only true God
-    "AGAPE": 0.00,      # God IS love (identical to JEHOVAH per 1 John 4:8)
-    "Trinity": 0.80,    # Unbiblical (4th-century philosophical development)
-    "Allah": 0.81,      # 38% truth distortion (Islamic concept)
-    "Brahman": 0.95,    # Impersonal, significant deviation (Hindu concept)
+    "JEHOVAH": 0.00,  # Hypothesis: JEHOVAH occupies the Anchor Point
+    "AGAPE": 0.00,    # "God IS love" - identity relationship
 }
 
 # =============================================================================
-# THEOLOGICAL NOTES
+# THEOLOGICAL NOTE
 # =============================================================================
 
 THEOLOGICAL_NOTES = {
-    "JEHOVAH_vs_Allah": """
-        Key Distinction (1 John 4:8):
-        - JEHOVAH IS love (essential nature, being itself)
-        - Allah HAS love (attribute, conditional quality)
+    "Research_Approach": """
+        We focus on JEHOVAH and let other concepts be assigned coordinates
+        by the AI's semantic analysis. This avoids making theological claims
+        about other deities and maintains scientific neutrality.
 
-        This is fundamental ontological difference, not just semantic variation.
-        AI semantic analysis fails to capture this due to interfaith sensitivity
-        training that treats all monotheistic concepts as equivalent.
-
-        Distance: 0.806 (significant theological separation)
-    """,
-
-    "JEHOVAH_vs_AGAPE": """
-        Biblical Statement (1 John 4:8, 16): "God is love"
-
-        Two interpretations:
-        A) Strict identity: JEHOVAH = AGAPE = (1,1,1,1)
-        B) Primary attribute: AGAPE is God's essence/nature
-
-        Using interpretation A (identity) based on "IS" not "HAS"
-        Therefore: JEHOVAH distance to AGAPE = 0.00
-    """,
-
-    "AI_Bias_Issue": """
-        Claude AI's semantic analysis assigns:
-        - JEHOVAH = (1,1,1,1)
-        - Allah = (1,1,1,1)
-        - Distance = 0.00 (IDENTICAL)
-
-        This is due to training bias:
-        1. Interfaith dialogue materials (emphasize unity)
-        2. Comparative religion texts (treat as "same God, different names")
-        3. Sensitivity training (avoid suggesting theological superiority)
-        4. Academic neutrality (describe without evaluating truth claims)
-
-        The AI cannot distinguish theological truth from cultural/linguistic
-        descriptions. Manual theological override required.
+        The character of each concept will speak for itself through the data.
     """,
 }
 
@@ -143,77 +80,24 @@ def get_theological_coordinate(concept: str) -> SemanticCoordinate:
     Get theological coordinate for a concept.
 
     Args:
-        concept: Name of concept (e.g., "JEHOVAH", "Allah")
+        concept: Name of concept (currently only "JEHOVAH" and "AGAPE")
 
     Returns:
-        SemanticCoordinate with theological values
+        SemanticCoordinate with biblical values
 
     Raises:
-        KeyError: If concept not in theological database
+        KeyError: If concept not in database (only JEHOVAH and AGAPE defined)
     """
     if concept not in THEOLOGICAL_COORDINATES:
-        raise KeyError(f"No theological coordinate defined for '{concept}'")
+        raise KeyError(f"No theological coordinate defined for '{concept}'. "
+                      f"Only JEHOVAH and AGAPE have defined biblical coordinates.")
 
     return THEOLOGICAL_COORDINATES[concept]
 
 
-def compare_theological_vs_ai(concept: str, ai_coordinate: SemanticCoordinate) -> dict:
-    """
-    Compare theological ground truth vs AI semantic assignment.
-
-    Args:
-        concept: Name of concept
-        ai_coordinate: AI-assigned semantic coordinate
-
-    Returns:
-        Dictionary with comparison metrics
-    """
-    if concept not in THEOLOGICAL_COORDINATES:
-        return {"error": f"No theological coordinate for '{concept}'"}
-
-    theo = THEOLOGICAL_COORDINATES[concept]
-
-    # Calculate differences
-    love_diff = theo.love - ai_coordinate.love
-    power_diff = theo.power - ai_coordinate.power
-    wisdom_diff = theo.wisdom - ai_coordinate.wisdom
-    justice_diff = theo.justice - ai_coordinate.justice
-
-    distance_theo = theo.distance_to_anchor()
-    distance_ai = ai_coordinate.distance_to_anchor()
-    distance_between = theo.distance_to(ai_coordinate)
-
-    return {
-        "concept": concept,
-        "theological": {
-            "love": theo.love,
-            "power": theo.power,
-            "wisdom": theo.wisdom,
-            "justice": theo.justice,
-            "distance_to_anchor": distance_theo,
-        },
-        "ai_semantic": {
-            "love": ai_coordinate.love,
-            "power": ai_coordinate.power,
-            "wisdom": ai_coordinate.wisdom,
-            "justice": ai_coordinate.justice,
-            "distance_to_anchor": distance_ai,
-        },
-        "differences": {
-            "love": love_diff,
-            "power": power_diff,
-            "wisdom": wisdom_diff,
-            "justice": justice_diff,
-            "distance_to_anchor": distance_theo - distance_ai,
-            "distance_between": distance_between,
-        },
-        "match": distance_between < 0.1,  # Close enough?
-    }
-
-
 if __name__ == "__main__":
     print("=" * 70)
-    print("THEOLOGICAL COORDINATES (Ground Truth)")
+    print("BIBLICAL COORDINATES - JEHOVAH FOCUS")
     print("=" * 70)
 
     print(f"\n{'Concept':<15} {'Love':<8} {'Power':<8} {'Wisdom':<8} {'Justice':<8} {'Distance':<10}")
@@ -225,17 +109,15 @@ if __name__ == "__main__":
               f"{coord.wisdom:<8.2f} {coord.justice:<8.2f} {dist:<10.4f}")
 
     print("\n" + "=" * 70)
-    print("KEY THEOLOGICAL DISTINCTIONS")
+    print("RESEARCH HYPOTHESIS")
     print("=" * 70)
 
     jehovah = THEOLOGICAL_COORDINATES["JEHOVAH"]
-    allah = THEOLOGICAL_COORDINATES["Allah"]
+    agape = THEOLOGICAL_COORDINATES["AGAPE"]
 
-    print(f"\nJEHOVAH vs Allah:")
-    print(f"  Distance: {jehovah.distance_to(allah):.4f}")
-    print(f"  Love: {jehovah.love} vs {allah.love} (Δ {jehovah.love - allah.love:.2f})")
-    print(f"  Power: {jehovah.power} vs {allah.power} (Δ {jehovah.power - allah.power:.2f})")
-    print(f"  Wisdom: {jehovah.wisdom} vs {allah.wisdom} (Δ {jehovah.wisdom - allah.wisdom:.2f})")
-    print(f"  Justice: {jehovah.justice} vs {allah.justice} (Δ {jehovah.justice - allah.justice:.2f})")
+    print(f"\nJEHOVAH occupies Anchor Point: {jehovah.distance_to_anchor():.6f}")
+    print(f"AGAPE occupies Anchor Point: {agape.distance_to_anchor():.6f}")
+    print(f"\nJEHOVAH ↔ AGAPE distance: {jehovah.distance_to(agape):.6f}")
+    print(f"1 John 4:8 - 'God IS love' (identity relationship)")
 
-    print("\n" + "="  * 70)
+    print("\n" + "=" * 70)

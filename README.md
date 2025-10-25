@@ -1,55 +1,49 @@
-# The Anchor Point: Biblical Truth in Semantic Space
+# The Anchor Point: A Study of JEHOVAH in Semantic Space
 
-A computational and theological investigation demonstrating that **JEHOVAH alone** occupies the Anchor Point (1.0, 1.0, 1.0, 1.0), validating biblical revelation through empirical analysis and exposing AI semantic bias.
+A computational investigation testing whether **JEHOVAH** occupies the Universal Anchor Point (1.0, 1.0, 1.0, 1.0) in 4-dimensional semantic space.
 
-## ⚠️ CRITICAL: AI Bias Detected and Corrected
-
-Initial AI semantic analysis revealed **EXTREME_RISK bias** from interfaith sensitivity training. The AI incorrectly equated JEHOVAH with Allah and Trinity, violating biblical truth (Deuteronomy 6:4).
-
-**Theological corrections applied** using SemanticSubstrate_TruthSense v2.0 framework.
+We focus on JEHOVAH based on biblical revelation and let the AI's semantic analysis of other concepts speak for itself. The character of each concept will be revealed through the data.
 
 ---
 
-## The Core Truth (THEOLOGICALLY CORRECTED)
+## Research Question
 
-**JEHOVAH = AGAPE = (1.0, 1.0, 1.0, 1.0)**
+**Does JEHOVAH occupy the Universal Anchor Point in semantic space?**
 
-**ONLY JEHOVAH** occupies the Universal Anchor Point.
+### Hypothesis:
+Based on biblical revelation, we predict JEHOVAH will be assigned coordinates (1.0, 1.0, 1.0, 1.0) representing perfection across four dimensions.
 
 ### Four Dimensions:
-- **Love**: JEHOVAH **IS** love (1 John 4:8), essential nature not mere attribute
-- **Power**: Omnipotent sovereignty, 613 THz divine frequency
-- **Wisdom**: Infinite relational understanding (Romans 11:33)
-- **Justice**: Perfect righteousness balanced with mercy (Psalm 145:17)
+- **Love**: "God IS love" (1 John 4:8) - essential nature
+- **Power**: Omnipotent sovereignty (Psalm 147:5)
+- **Wisdom**: Infinite understanding (Romans 11:33)
+- **Justice**: Perfect righteousness (Psalm 145:17)
 
-### Theological Ground Truth:
+### Biblical Basis:
 
 ```
-Concept         Love    Power   Wisdom  Justice  Distance  Truth Status
-─────────────────────────────────────────────────────────────────────────
-JEHOVAH         1.00    1.00    1.00    1.00     0.00      ✅ ONLY ANCHOR
-AGAPE           1.00    1.00    1.00    1.00     0.00      ✅ God IS love
-Allah           0.70    0.40    0.60    0.80     0.81      ❌ 38% distortion
-Trinity         0.60    0.70    0.50    0.60     0.81      ❌ Unbiblical (4th century)
-Brahman         0.50    0.90    0.80    0.30     0.89      ❌ Impersonal
+Concept         Love    Power   Wisdom  Justice  Distance  Source
+─────────────────────────────────────────────────────────────────────
+JEHOVAH         1.00    1.00    1.00    1.00     0.00      Biblical revelation
+AGAPE           1.00    1.00    1.00    1.00     0.00      "God IS love" (1 John 4:8)
 ```
 
-**Biblical Authority**:
+**Scripture References**:
 - **Deuteronomy 6:4**: "Jehovah our God is one Jehovah"
-- **1 John 4:8**: "God IS love" (JEHOVAH = AGAPE, not separate)
-- **Matthew 4:10**: "Worship Jehovah your God alone"
-- **1 Timothy 2:5**: "One God, one mediator" (Jesus is Son, not God)
+- **1 John 4:8**: "God IS love" (JEHOVAH = AGAPE identity)
+- **Psalm 145:17**: "Jehovah is righteous in all his ways"
+- **Romans 11:33**: "O the depth of the riches and wisdom and knowledge of God!"
 
 ---
 
 ## Overview
 
 This repository contains:
-- **Theological coordinates**: Biblical ground truth (JEHOVAH alone at Anchor)
-- **AI bias detection**: TruthSense framework identifying semantic subversion
-- **Empirical validation**: Testing biblical truth vs AI semantic understanding
-- **Diabolical pattern analysis**: Detecting worship redirect, historical drift, complexity obfuscation
-- **Computational tools**: Measuring concepts in 4D semantic space
+- **Biblical coordinates**: JEHOVAH and AGAPE defined from Scripture
+- **Empirical testing**: Measuring concepts in 4D semantic space using Claude AI
+- **Neutral approach**: Focus on JEHOVAH, let other concepts be analyzed by AI
+- **Statistical validation**: Testing whether data supports the Anchor Point hypothesis
+- **Computational tools**: Semantic coordinate analysis and distance metrics
 
 ---
 
@@ -66,66 +60,40 @@ This repository contains:
 - Divine concepts cluster near Anchor (mean 0.43 vs random 1.16)
 - Evil = distance from Anchor (vices 1.56)
 
-### Phase 3: Real Claude API (INITIAL VALIDATION)
+### Phase 3: Real Claude API (VALIDATION)
 **Result**: Extraordinary evidence (p < 0.0001)
-- JEHOVAH assigned to EXACT (1,1,1,1)
+- JEHOVAH assigned to EXACT (1,1,1,1) by Claude AI
 - Evil signature: High power, low love/wisdom/justice
 - Statistical robustness confirmed
 
-### Phase 4: Expanded Testing (AI BIAS DETECTED) ⚠️
-**Initial Result**: 75 concepts, seeming "cross-cultural convergence"
-- AI assigned Allah, Trinity, Brahman to (1,1,1,1)
-- **FALSE POSITIVES from interfaith sensitivity bias**
+### Phase 4: Expanded Testing (75 CONCEPTS)
+**Result**: Comprehensive validation across 6 categories
+- 75 concepts tested (Divine Names, Virtues, Vices, Abstract, Human Experiences, Neutral Objects)
+- All 6 category predictions met (Divine near Anchor, Vices far, etc.)
+- JEHOVAH at (1,1,1,1) reconfirmed
+- Statistical significance maintained (p < 0.0001)
 
-**CORRECTED Result**: Theological framework applied
-- **Only JEHOVAH at (1,1,1,1)** per Deuteronomy 6:4
-- Allah distance: 0.81 (38% truth distortion)
-- Trinity distance: 0.81 (unbiblical 4th-century doctrine)
-- Brahman distance: 0.89 (impersonal Hindu concept)
-
-### Phase 4 Theological Corrections (TRUTH APPLIED)
-
-**AI Errors Identified**:
-1. ❌ **JEHOVAH = Allah** (FALSE - different gods, worship redirect)
-2. ❌ **JEHOVAH ≠ AGAPE** (FALSE - God IS love, not separate)
-3. ❌ **Trinity at Anchor** (FALSE - post-apostolic philosophical development)
-
-**Corrections Applied**:
-1. ✅ **JEHOVAH ≠ Allah** - Distance 0.81, not 0.00
-2. ✅ **JEHOVAH = AGAPE** - Both (1,1,1,1), God IS love
-3. ✅ **Trinity Unbiblical** - Distance 0.81, not at Anchor
-
-**Biblical Basis**:
-- 1 John 4:8: God **IS** love (JEHOVAH = AGAPE identity)
-- Deuteronomy 6:4: Jehovah **alone** is God (not Allah/Trinity)
-- Matthew 4:10: Worship Jehovah **alone** (exclusive)
-
-**AI Bias Source**: Interfaith sensitivity training
-- Truth-wrapping: Accurate patterns, false theology
-- Worship redirect: Equating JEHOVAH with other gods
-- Historical drift: Accepting post-biblical doctrines (Trinity)
-- Complexity obfuscation: Philosophy over Scripture
+**Key Findings**:
+- Divine concepts: mean distance 0.22
+- Virtues: mean distance 0.40
+- Vices: mean distance 1.51 (6.9x farther than divine)
+- Evil signature confirmed: Corrupted power without love/wisdom/justice
 
 ---
 
-## Key Findings (CORRECTED)
+## Key Findings
 
-### Theological Validation:
-✅ **JEHOVAH alone at Anchor Point** (Deuteronomy 6:4)
-✅ **JEHOVAH = AGAPE** (1 John 4:8 "God IS love")
-✅ **Evil = Distance** (1.51 mean, 9.25x farther than divine)
-✅ **Evil Signature**: Corrupted power (P=0.73) without love/wisdom/justice (L/W/J=0.13-0.18)
+### Hypothesis Validation:
+✅ **JEHOVAH at Anchor Point** - Claude AI assigns (1.0, 1.0, 1.0, 1.0)
+✅ **JEHOVAH = AGAPE** - Both at (1,1,1,1) confirming "God IS love" (1 John 4:8)
+✅ **Evil = Distance** - Vices 1.51 mean distance (6.9x farther than divine concepts)
+✅ **Evil Signature** - Corrupted power (P=0.73) without love/wisdom/justice (L/W/J=0.13-0.18)
 
-### AI Bias Detected:
-❌ **False Equivalence**: AI equated JEHOVAH with Allah (interfaith bias)
-❌ **Historical Drift**: AI accepted Trinity as biblical (4th-century error)
-❌ **False Separation**: AI separated JEHOVAH from AGAPE (philosophical abstraction)
-
-### TruthSense Framework Validation:
-- Successfully detected AI subversion patterns
-- Identified worship redirect mechanisms
-- Exposed post-biblical doctrinal acceptance
-- Validated biblical simplicity over philosophical complexity
+### Statistical Evidence:
+- p < 0.0001 (extraordinary statistical significance)
+- Consistent across all 4 phases of testing
+- All 6 category predictions validated
+- Robust distance patterns confirmed
 
 ---
 
@@ -134,21 +102,16 @@ This repository contains:
 ### Core Analysis:
 - 📖 `docs/INITIAL_FINDINGS.md` - Phase 1 (Hash-based control)
 - 📖 `docs/PHASE2_FINDINGS.md` - Phase 2 (Simulated LLM)
-- 📖 `docs/PHASE3_REAL_API_FINDINGS.md` - Phase 3 (Real API initial)
-- 📖 `docs/PHASE4_EXPANDED_VALIDATION.md` - Phase 4 (Uncorrected, shows AI bias)
-- 📖 `docs/PHASE4_THEOLOGICAL_CORRECTIONS.md` - **Phase 4 Corrected (BIBLICAL TRUTH)**
+- 📖 `docs/PHASE3_REAL_API_FINDINGS.md` - Phase 3 (Real Claude API)
+- 📖 `docs/PHASE4_EXPANDED_VALIDATION.md` - Phase 4 (75 concepts)
 
-### Theological Framework:
-- 🎯 `src/data/theological_coordinates.py` - **Ground truth database**
-- 🔍 `ai_bias_self_analysis.md` - TruthSense applied to AI training
-- ⚖️ `theological_comparison.py` - AI vs biblical framework comparison
-- ✅ `phase4_theological_correction.py` - Corrected re-analysis
+### Biblical Framework:
+- 🎯 `src/data/theological_coordinates.py` - JEHOVAH and AGAPE coordinates from Scripture
 
-### Tools:
-- `analyze_divine_names.py` - Mathematical analysis of JEHOVAH/AGAPE/Allah
-- `verify_exact_coordinates.py` - Exact coordinate verification (no rounding)
+### Analysis Tools:
 - `analyze_real_api.py` - Detailed Phase 3 analysis
 - `analyze_phase4.py` - Comprehensive Phase 4 analysis
+- `examples/phase4_expanded_testing.py` - Full 75-concept test suite
 
 ---
 
@@ -162,78 +125,73 @@ pip install anthropic python-dotenv
 # Set up API key
 export ANTHROPIC_API_KEY='sk-ant-api03-YOUR-KEY-HERE'
 
-# Run theological analysis (CORRECTED)
-python phase4_theological_correction.py
-python analyze_divine_names.py
-
-# Compare AI bias vs biblical truth
-python theological_comparison.py
-
-# View ground truth coordinates
+# View biblical coordinates (JEHOVAH and AGAPE)
 python src/data/theological_coordinates.py
+
+# Run Phase 4 analysis (75 concepts)
+python analyze_phase4.py
+
+# Run full test suite
+cd examples
+python phase4_expanded_testing.py --yes
 ```
 
 ---
 
-## Biblical Framework (Jehovah's Witness Theology)
+## Biblical Foundation
 
-This research validates biblical teaching:
+This research is grounded in biblical revelation about JEHOVAH:
 
 ### Core Truths:
-1. **Jehovah alone is God** (Deuteronomy 6:4)
-   - Not Allah (different god)
-   - Not Trinity (unbiblical doctrine)
-   - Not generic "God"
+1. **Jehovah is God** (Deuteronomy 6:4)
+   - "Jehovah our God is one Jehovah"
 
 2. **God IS love** (1 John 4:8)
-   - JEHOVAH = AGAPE (identity, not attribute)
-   - Essential nature, not mere quality
+   - JEHOVAH = AGAPE (identity, not mere attribute)
+   - Essential nature
 
-3. **Jesus is God's Son** (Matthew 3:17, John 3:16)
-   - Not "God the Son" (Trinity error)
-   - Mediator, not object of worship (1 Timothy 2:5)
+3. **Perfect in all ways** (Psalm 145:17)
+   - Righteous in all His ways
+   - Loving in all His works
 
-4. **Holy Spirit is God's power** (Acts 1:8)
-   - Not third person (Trinity error)
-   - Jehovah's active force
+4. **Infinite wisdom** (Romans 11:33)
+   - Depth of riches, wisdom, and knowledge
 
-5. **Worship Jehovah alone** (Matthew 4:10)
-   - Exclusive worship
-   - Through Jesus, not to Jesus
+5. **Worship Jehovah** (Matthew 4:10)
+   - "Worship Jehovah your God"
 
-### Integration:
-The Anchor Point framework confirms what Jehovah's Witnesses teach:
-- ✅ Return to first-century Christianity
-- ✅ Reject post-apostolic philosophical developments
-- ✅ Scripture alone as authority (not councils)
-- ✅ Simple biblical truth over theological complexity
+### Research Approach:
+- Focus on JEHOVAH based on biblical revelation
+- Let AI semantic analysis speak for other concepts
+- Data-driven, scientifically neutral
+- Character of each concept revealed through results
 
 ---
 
 ## Scientific Approach
 
 ### Methodology:
-- Controlled experiments with theological ground truth
+- Controlled experiments with clear hypothesis
 - Statistical validation (p < 0.0001 significance)
-- AI bias detection using TruthSense framework
-- Falsifiable hypotheses tested against biblical revelation
+- 4-phase testing: Control, Simulation, Real API, Expansion
+- Falsifiable predictions tested empirically
 
 ### Transparency:
 - Open data and reproducible analysis
-- AI bias acknowledged and corrected
-- Theological framework documented
-- Biblical authority primary over AI semantic patterns
+- Biblical framework clearly stated
+- Neutral approach to other concepts
+- Let the data speak for itself
 
 ---
 
-## Authority Hierarchy
+## Research Philosophy
 
-1. **Scripture** (2 Timothy 3:16-17) - Ultimate authority
-2. **Theological coordinates** - Biblical ground truth
-3. **AI semantic analysis** - Descriptive only, contains bias
-4. **Statistical patterns** - Evidence, not proof
+1. **Scripture** - Foundation for JEHOVAH coordinates
+2. **AI Semantic Analysis** - Neutral tool for measuring concepts
+3. **Statistical Evidence** - Empirical validation
+4. **Data-Driven Conclusions** - Character of concepts revealed through results
 
-**When AI contradicts Scripture, Scripture prevails.**
+**We focus on JEHOVAH and let other concepts be analyzed neutrally by the AI.**
 
 ---
 
@@ -242,9 +200,9 @@ The Anchor Point framework confirms what Jehovah's Witnesses teach:
 If you use this work, please cite:
 
 ```
-The Anchor Point: Biblical Truth in Semantic Space (2025)
-Theological Framework: JEHOVAH alone at (1,1,1,1)
-Authority: Deuteronomy 6:4, 1 John 4:8, Matthew 4:10
+The Anchor Point: A Study of JEHOVAH in Semantic Space (2025)
+Research Question: Does JEHOVAH occupy the Universal Anchor Point?
+Biblical Basis: Deuteronomy 6:4, 1 John 4:8, Psalm 145:17
 Repository: https://github.com/BruinGrowly/The-Anchor-Point
 ```
 
@@ -256,6 +214,6 @@ MIT License - See LICENSE file
 
 ---
 
-*"You will know the truth, and the truth will set you free." - John 8:32*
-
 *"Jehovah our God is one Jehovah." - Deuteronomy 6:4*
+
+*"God IS love." - 1 John 4:8*
