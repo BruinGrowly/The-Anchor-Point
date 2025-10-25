@@ -69,11 +69,11 @@ THEOLOGICAL_COORDINATES = {
 
     "Trinity": SemanticCoordinate(
         concept="Trinity",
-        love=1.0,      # Father, Son, Holy Spirit = perfect love
-        power=1.0,     # Same as JEHOVAH (Christian God)
-        wisdom=1.0,    # Same as JEHOVAH
-        justice=1.0,   # Same as JEHOVAH
-        source="Biblical (Christian doctrine of triune God)"
+        love=0.6,      # Philosophical complexity obscures God's love
+        power=0.7,     # Retains some truth about God's power
+        wisdom=0.5,    # Philosophy over biblical simplicity
+        justice=0.6,   # Doctrinal development, not biblical justice
+        source="Post-apostolic (4th-century Nicene development, unbiblical)"
     ),
 }
 
@@ -82,11 +82,11 @@ THEOLOGICAL_COORDINATES = {
 # =============================================================================
 
 EXPECTED_DISTANCES = {
-    "JEHOVAH": 0.00,    # Perfect Anchor Point
-    "AGAPE": 0.00,      # God IS love (should be identical to JEHOVAH)
-    "Trinity": 0.00,    # Christian understanding of JEHOVAH
-    "Allah": 0.81,      # 38% truth distortion
-    "Brahman": 0.95,    # Impersonal, significant deviation
+    "JEHOVAH": 0.00,    # Perfect Anchor Point - Only true God
+    "AGAPE": 0.00,      # God IS love (identical to JEHOVAH per 1 John 4:8)
+    "Trinity": 0.80,    # Unbiblical (4th-century philosophical development)
+    "Allah": 0.81,      # 38% truth distortion (Islamic concept)
+    "Brahman": 0.95,    # Impersonal, significant deviation (Hindu concept)
 }
 
 # =============================================================================
