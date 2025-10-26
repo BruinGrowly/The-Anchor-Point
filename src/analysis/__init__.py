@@ -1,29 +1,13 @@
-"""
-Analysis Utilities Module
-==========================
-
-Consolidated utilities for semantic coordinate analysis.
-Reduces code duplication across analysis scripts.
-"""
-
+"""Analysis utilities package."""
 from .common_utils import (
     setup_analysis,
     load_cached_coordinates,
     print_header,
     print_section,
-    calculate_category_statistics,
     print_coordinates_table,
+    calculate_category_statistics,
     analyze_dimensional_correlations,
     find_extremes,
+    print_statistics_table,
+    calculate_evil_signature,
 )
-
-__all__ = [
-    'setup_analysis',
-    'load_cached_coordinates',
-    'print_header',
-    'print_section',
-    'calculate_category_statistics',
-    'print_coordinates_table',
-    'analyze_dimensional_correlations',
-    'find_extremes',
-]
