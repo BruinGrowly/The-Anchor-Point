@@ -109,7 +109,6 @@ def calculate_category_statistics(
                 'std_distance': np.std(distances),
                 'min_distance': np.min(distances),
                 'max_distance': np.max(distances),
-                'median_distance': np.median(distances),
                 'mean_love': np.mean(loves),
                 'mean_power': np.mean(powers),
                 'mean_wisdom': np.mean(wisdoms),
