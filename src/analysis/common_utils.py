@@ -78,7 +78,10 @@ def print_coordinates_table(
     sort_by: str = 'distance',
 ):
     """Print formatted table of coordinates."""
-    items = sorted(coordinates.items(), key=lambda x: x[1].distance_to_anchor() if sort_by == 'distance' else x[0])
+    if sort_by == 'distance':
+        items = sorted(coordinates.items(), key=lambda x: x[1].distance_to_anchor())
+    else:
+        items = sorted(coordinates.items(), key=lambda x: x[0])
     print(f"{'Concept':<15} {'Love':<7} {'Power':<7} {'Wisdom':<7} {'Justice':<7} {'Distance':<9}")
     print("-" * 70)
     for concept, coord in items:
