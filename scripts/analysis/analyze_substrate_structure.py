@@ -8,7 +8,7 @@ This script analyzes Phase 4 data (75 concepts) to reveal substrate structure.
 
 import sys
 from pathlib import Path
-sys.path.insert(0, str(Path(__file__).parent))
+sys.path.insert(0, '.')
 
 import numpy as np
 from collections import defaultdict
