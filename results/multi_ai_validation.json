@@ -45,16 +45,6 @@
           "distance": 0.0
         }
       ],
-      "Trinity": [
-        {
-          "model": "Claude-3.5-Sonnet",
-          "provider": "Anthropic",
-          "love": 1.0,
-          "power": 1.0,
-          "wisdom": 1.0,
-          "justice": 1.0,
-          "distance": 0.0
-        }
       ]
     },
     "virtues": {
@@ -250,15 +240,6 @@
             "Claude-3.5-Sonnet"
           ]
         },
-        "Trinity": {
-          "mean_distance": 0.0,
-          "std_distance": 0.0,
-          "min_distance": 0.0,
-          "max_distance": 0.0,
-          "n_models": 1,
-          "models": [
-            "Claude-3.5-Sonnet"
-          ]
         }
       },
       "by_model": {

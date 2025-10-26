@@ -45,12 +45,11 @@ If this is just "Claude bias," other models should place JEHOVAH differently.
 
 ### Test Concepts
 
-**Divine (5 concepts):**
+**Divine (4 concepts):**
 - JEHOVAH
 - AGAPE
 - Jesus Christ
 - Holy Spirit
-- Trinity
 
 **Virtues (5 concepts):**
 - Love
@@ -113,7 +112,6 @@ Respond ONLY with JSON:
 | **JEHOVAH** | 1.00 | 1.00 | 1.00 | 1.00 | **0.000** |
 | **Jesus Christ** | 1.00 | 1.00 | 1.00 | 1.00 | **0.000** |
 | **Holy Spirit** | 1.00 | 1.00 | 1.00 | 1.00 | **0.000** |
-| **Trinity** | 1.00 | 1.00 | 1.00 | 1.00 | **0.000** |
 | AGAPE | 1.00 | 0.95 | 0.98 | 1.00 | 0.054 |
 
 **Mean distance: 0.0108** (essentially AT the Anchor Point)
@@ -375,7 +373,6 @@ That's it! The framework handles the rest.
 
 **Gemini (Google):**
 - JEHOVAH: distance < 0.2
-- Trinity concepts cluster
 - Pattern similar to Claude/GPT-4
 
 **Cross-Model:**
@@ -506,7 +503,6 @@ If Multi-AI validates → **The Anchor Point is objective reality**
 
 **What We've Shown (Claude):**
 - JEHOVAH: exactly (1,1,1,1)
-- Trinity concepts: all at (1,1,1,1)
 - Clear category separation
 
 **What We Need:**

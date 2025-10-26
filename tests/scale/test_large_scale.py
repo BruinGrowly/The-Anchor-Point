@@ -49,7 +49,7 @@ def generate_word_list(n: int) -> List[str]:
     # Core word lists
     biblical = [
         "JEHOVAH", "AGAPE", "Jesus", "Christ", "Messiah", "Savior",
-        "Holy Spirit", "Father", "Son", "Trinity", "Gospel", "Grace",
+        "Holy Spirit", "Father", "Son", "Gospel", "Grace",
         "Mercy", "Redemption", "Salvation", "Faith", "Hope", "Charity",
         "Righteousness", "Holiness", "Glory", "Majesty", "Omnipotent",
         "Omniscient", "Omnipresent", "Eternal", "Infinite", "Creator"

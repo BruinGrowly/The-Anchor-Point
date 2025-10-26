@@ -64,7 +64,6 @@ class ImprovedEmpiricalValidation:
             ValidationConcept("AGAPE", 1.0, 1.0, 1.0, 1.0, "divine", 0.0, "biblical"),
             ValidationConcept("Jesus_Christ", 0.95, 0.95, 0.95, 0.95, "divine", 0.11, "theological"),
             ValidationConcept("Holy_Spirit", 0.9, 0.9, 0.9, 0.9, "divine", 0.20, "theological"),
-            ValidationConcept("Trinity", 0.92, 0.92, 0.92, 0.92, "divine", 0.16, "theological"),
             ValidationConcept("Eternal_Life", 0.85, 0.8, 0.85, 0.9, "divine", 0.18, "biblical"),
             ValidationConcept("Salvation", 0.8, 0.75, 0.8, 0.85, "divine", 0.25, "biblical"),
         ]

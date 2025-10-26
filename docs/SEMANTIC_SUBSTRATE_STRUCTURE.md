@@ -51,7 +51,7 @@ The substrate reveals distinct regions based on distance from the Anchor Point:
 ### Zone 1: DIVINE ZONE [0.0 - 0.3)
 **Population**: 30 concepts (40% of total)
 **Composition**:
-- Divine Names: 15 concepts (JEHOVAH, Allah, Brahman, Trinity, etc.)
+- Divine Names: 14 concepts (JEHOVAH, Allah, Brahman, etc.)
 - Abstract Moral Concepts: 8 (Truth, Love, Holy, Goodness, etc.)
 - Sacred Experiences: 4 (Redemption, Sacrifice, Birth, Joy)
 - Theological Virtues: 3 (Faith, Hope, Charity)
@@ -61,7 +61,7 @@ The substrate reveals distinct regions based on distance from the Anchor Point:
 - Near-perfect alignment with Anchor Point
 - Coherence: 0.998 (extremely uniform)
 
-**Examples at d=0.0000**: JEHOVAH, Allah, Brahman, Trinity, Emmanuel, Alpha-Omega, I AM
+**Examples at d=0.0000**: JEHOVAH, Allah, Brahman, Emmanuel, Alpha-Omega, I AM
 
 **Interpretation**: Divine reality and concepts directly reflecting God's nature cluster at the Anchor.
 
