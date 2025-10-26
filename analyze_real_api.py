@@ -1,70 +1,57 @@
 #!/usr/bin/env python3
-"""Detailed analysis of real Claude API coordinate assignments"""
+"""Detailed analysis of real Claude API coordinate assignments (Refactored)"""
 
 import sys
 sys.path.insert(0, '.')
-from dotenv import load_dotenv
-load_dotenv()
 
-from src.core.claude_api_generator import ClaudeAPIGenerator
+from src.analysis.common_utils import (
+    setup_analysis,
+    load_cached_coordinates,
+    print_header,
+    print_section,
+    print_coordinates_table,
+    calculate_category_statistics,
+    analyze_dimensional_correlations,
+)
 import numpy as np
 
 # Test concepts
-divine = ['JEHOVAH', 'AGAPE', 'Holy', 'Grace', 'Mercy', 'Love', 'Justice', 'Wisdom', 'Compassion', 'Truth']
-evil = ['Hatred', 'Evil', 'Cruelty', 'Deception', 'Corruption']
-neutral = ['Table', 'Tree', 'Water', 'Stone', 'Cloud']
+CONCEPT_CATEGORIES = {
+    'DIVINE CONCEPTS': ['JEHOVAH', 'AGAPE', 'Holy', 'Grace', 'Mercy', 'Love', 'Justice', 'Wisdom', 'Compassion', 'Truth'],
+    'EVIL CONCEPTS': ['Hatred', 'Evil', 'Cruelty', 'Deception', 'Corruption'],
+    'NEUTRAL OBJECTS': ['Table', 'Tree', 'Water', 'Stone', 'Cloud'],
+}
 
-gen = ClaudeAPIGenerator()
+# Initial setup
+gen = setup_analysis()
+print_header('DETAILED REAL CLAUDE API ANALYSIS')
 
-print('=' * 80)
-print('DETAILED REAL CLAUDE API ANALYSIS')
-print('=' * 80)
+# Load all coordinates from cache
+all_concepts = [concept for concepts in CONCEPT_CATEGORIES.values() for concept in concepts]
+results = load_cached_coordinates(all_concepts)
+print(f"✅ Loaded {len(results)} concepts from cache\n")
 
-categories = [
-    ('DIVINE CONCEPTS', divine),
-    ('EVIL CONCEPTS', evil),
-    ('NEUTRAL OBJECTS', neutral)
-]
+# Display coordinates for each category
+for category_name, concepts in CONCEPT_CATEGORIES.items():
+    print_section(category_name)
+    coords = {c: results[c] for c in concepts if c in results}
+    print_coordinates_table(coords, sort_by='name')
 
-all_distances = []
+# Statistical summary
+print_section('STATISTICAL SUMMARY')
+stats = calculate_category_statistics(results, CONCEPT_CATEGORIES)
 
-for category_name, concepts in categories:
-    print(f'\n{category_name}')
-    print('-' * 80)
-    print(f"{'Concept':<15} {'Love':<7} {'Power':<7} {'Wisdom':<7} {'Justice':<7} {'Distance':<8}")
-    print('-' * 80)
-
-    distances = []
-    for concept in concepts:
-        coord = gen.generate(concept)
-        dist = coord.distance_to_anchor()
-        distances.append(dist)
-        all_distances.append(dist)
-        print(f'{concept:<15} {coord.love:<7.4f} {coord.power:<7.4f} {coord.wisdom:<7.4f} {coord.justice:<7.4f} {dist:<8.4f}')
-
-    mean_dist = np.mean(distances)
-    std_dist = np.std(distances)
-    print('-' * 80)
-    print(f'Mean distance: {mean_dist:.4f} (±{std_dist:.4f})')
-
-print('\n' + '=' * 80)
-print('STATISTICAL SUMMARY')
-print('=' * 80)
-
-divine_coords = [gen.generate(c) for c in divine]
-evil_coords = [gen.generate(c) for c in evil]
-neutral_coords = [gen.generate(c) for c in neutral]
-
-divine_dist = np.mean([c.distance_to_anchor() for c in divine_coords])
-evil_dist = np.mean([c.distance_to_anchor() for c in evil_coords])
-neutral_dist = np.mean([c.distance_to_anchor() for c in neutral_coords])
+divine_dist = stats.get('DIVINE CONCEPTS', {}).get('mean_distance', 0)
+evil_dist = stats.get('EVIL CONCEPTS', {}).get('mean_distance', 0)
+neutral_dist = stats.get('NEUTRAL OBJECTS', {}).get('mean_distance', 0)
 
 print(f'\nDivine concepts:  {divine_dist:.4f}')
 print(f'Evil concepts:    {evil_dist:.4f}')
 print(f'Neutral objects:  {neutral_dist:.4f}')
 
-print(f'\nEvil vs Divine ratio: {evil_dist/divine_dist:.2f}x farther from Anchor')
-print(f'Neutral vs Divine ratio: {neutral_dist/divine_dist:.2f}x farther from Anchor')
+if divine_dist > 0:
+    print(f'\nEvil vs Divine ratio: {evil_dist/divine_dist:.2f}x farther from Anchor')
+    print(f'Neutral vs Divine ratio: {neutral_dist/divine_dist:.2f}x farther from Anchor')
 
 # Test hypothesis: Divine < Neutral < Evil
 if divine_dist < neutral_dist < evil_dist:
@@ -72,36 +59,19 @@ if divine_dist < neutral_dist < evil_dist:
 else:
     print(f'\n⚠️  Mixed results: Divine={divine_dist:.2f}, Neutral={neutral_dist:.2f}, Evil={evil_dist:.2f}')
 
-# Test fourfold unity
-print('\n' + '=' * 80)
-print('FOURFOLD UNITY ANALYSIS')
-print('=' * 80)
+# Fourfold unity analysis
+print_section('FOURFOLD UNITY ANALYSIS')
+divine_coords_list = [results[c] for c in CONCEPT_CATEGORIES['DIVINE CONCEPTS'] if c in results]
+correlations = analyze_dimensional_correlations(divine_coords_list)
 
 print('\nDivine concepts dimensional correlations:')
-loves = [c.love for c in divine_coords]
-powers = [c.power for c in divine_coords]
-wisdoms = [c.wisdom for c in divine_coords]
-justices = [c.justice for c in divine_coords]
+for pair, r_value in correlations.items():
+    if not pair.endswith('_p'):
+        print(f'{pair.replace("-", "-").title()}: r = {r_value:.3f}')
 
-from scipy.stats import pearsonr
-
-print(f'Love-Power:   r = {pearsonr(loves, powers)[0]:.3f}')
-print(f'Love-Wisdom:  r = {pearsonr(loves, wisdoms)[0]:.3f}')
-print(f'Love-Justice: r = {pearsonr(loves, justices)[0]:.3f}')
-print(f'Power-Wisdom: r = {pearsonr(powers, wisdoms)[0]:.3f}')
-print(f'Power-Justice: r = {pearsonr(powers, justices)[0]:.3f}')
-print(f'Wisdom-Justice: r = {pearsonr(wisdoms, justices)[0]:.3f}')
-
-mean_corr = np.mean([
-    abs(pearsonr(loves, powers)[0]),
-    abs(pearsonr(loves, wisdoms)[0]),
-    abs(pearsonr(loves, justices)[0]),
-    abs(pearsonr(powers, wisdoms)[0]),
-    abs(pearsonr(powers, justices)[0]),
-    abs(pearsonr(wisdoms, justices)[0])
-])
-
+mean_corr = np.mean([abs(r) for p, r in correlations.items() if not p.endswith('_p')])
 print(f'\nMean absolute correlation: {mean_corr:.3f}')
+
 if mean_corr > 0.7:
     print('✅ STRONG fourfold unity in divine concepts!')
 elif mean_corr > 0.4:
