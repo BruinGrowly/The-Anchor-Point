@@ -1,3 +1,4 @@
+# This script is intended to be run from the root of the repository.
 """
 Semantic Substrate Structure Analysis (Refactored)
 ==================================================

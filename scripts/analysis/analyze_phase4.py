@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# This script is intended to be run from the root of the repository.
 """
 Detailed Phase 4 Analysis (Restored)
 ======================================
