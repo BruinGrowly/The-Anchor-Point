@@ -19,10 +19,8 @@ nltk>=3.8.0
 spacy>=3.5.0
 
 # Hashing and cryptography
-hashlib  # Built-in, included for documentation
 
 # Database and data storage
-sqlite3  # Built-in
 sqlalchemy>=2.0.0
 
 # Testing

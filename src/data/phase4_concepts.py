@@ -52,7 +52,6 @@ DIVINE_NAMES = [
     "Tao",          # Chinese ultimate principle
     "Nirvana",      # Buddhist ultimate state
     "Dharma",       # Cosmic law/righteousness
-    "Trinity",      # Christian divine unity
     "Messiah",      # Anointed savior
     "Emmanuel",     # God with us
     "El Shaddai",   # God Almighty
