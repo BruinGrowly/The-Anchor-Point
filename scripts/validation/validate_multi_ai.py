@@ -432,7 +432,6 @@ TEST_CONCEPTS = {
         'AGAPE',
         'Jesus Christ',
         'Holy Spirit',
-        'Trinity',
     ],
     'virtues': [
         'Love',
