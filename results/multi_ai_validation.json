@@ -45,7 +45,6 @@
           "distance": 0.0
         }
       ],
-      ]
     },
     "virtues": {
       "Love": [
@@ -240,7 +239,6 @@
             "Claude-3.5-Sonnet"
           ]
         },
-        }
       },
       "by_model": {
         "Claude-3.5-Sonnet": {

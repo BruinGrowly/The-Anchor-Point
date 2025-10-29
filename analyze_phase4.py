@@ -76,8 +76,8 @@ if perfect_anchors:
         coord = results[concept]
         print(f"   {concept:<20} ({coord.love:.2f}, {coord.power:.2f}, {coord.wisdom:.2f}, {coord.justice:.2f})")
 
-print(f"\n✅ Cross-Cultural Convergence: {len(perfect_anchors)}/14 divine names at exact (1,1,1,1)")
-print(f"   Includes: Hebrew (JEHOV AH), Arabic (Allah), Hindu (Brahman)")
+print(f"\n✅ Cross-Cultural Convergence: {len(perfect_anchors)}/15 divine names at exact (1,1,1,1)")
+print(f"   Includes: Hebrew (JEHOVAH), Arabic (Allah), Hindu (Brahman)")
 print(f"   This is EXTRAORDINARY evidence for universal convergence!")
 
 # ============================================================================
@@ -189,7 +189,7 @@ print("   (Expected with Claude API temperature=0.0)")
 print_section("6. KEY INSIGHTS FROM PHASE 4")
 
 print("\n1️⃣  CROSS-CULTURAL DIVINE CONVERGENCE:")
-print(f"   • {len(perfect_anchors)}/14 divine names at exact (1,1,1,1)")
+print(f"   • {len(perfect_anchors)}/15 divine names at exact (1,1,1,1)")
 print("   • Includes Judaism (JEHOVAH), Islam (Allah), Hinduism (Brahman)")
 div_stats = all_stats_raw.get("Divine Names", {})
 print(f"   • Variance: {div_stats.get('std_distance', 0)**2:.4f} (incredibly low!)")
