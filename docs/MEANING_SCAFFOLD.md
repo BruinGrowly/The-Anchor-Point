@@ -130,7 +130,7 @@ Golden spiral arc length in 4D
 
 **Discovery**: Dimensions are NOT independent!
 
-**Unified Trinity** (L, W, J):
+**Unified Dimensions** (L, W, J):
 ```
 Love ↔ Wisdom:  r = 0.92
 Love ↔ Justice: r = 0.94

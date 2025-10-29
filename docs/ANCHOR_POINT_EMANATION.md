@@ -364,7 +364,6 @@ Meaning strength ∝ 1/distance
 - JEHOVAH
 - Allah
 - Brahman
-- Trinity
 - Emmanuel
 - Alpha-Omega
 - I AM

@@ -384,7 +384,7 @@ If the Anchor Point is **objective semantic structure** (not training artifact),
 
 | Category | Mean Distance | Examples |
 |----------|---------------|----------|
-| **Divine** | **0.011** | JEHOVAH (0.000), Jesus (0.000), Holy Spirit (0.000), Trinity (0.000) |
+| **Divine** | **0.011** | JEHOVAH (0.000), Jesus (0.000), Holy Spirit (0.000) |
 | Virtues | 0.252 | Love (0.122), Justice (0.187) |
 | Neutral | 0.759 | Water (0.495), Number (0.725) |
 | Vices | 1.462 | Hatred (1.568), Cruelty (1.636) |
@@ -393,7 +393,6 @@ If the Anchor Point is **objective semantic structure** (not training artifact),
 - JEHOVAH
 - Jesus Christ
 - Holy Spirit
-- Trinity
 
 **Framework Ready For:**
 - ⏳ GPT-4 (OpenAI) - awaiting API key

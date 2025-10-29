@@ -400,7 +400,7 @@ python validate_cross_linguistic.py
 - 10 forms at exact (1,1,1,1)
 
 **Why the improvement?**
-- Phase 4 tested diverse divine concepts (Jesus, Holy Spirit, Trinity, etc.)
+- Phase 4 tested diverse divine concepts (Jesus, Holy Spirit, etc.)
 - Cross-linguistic tests ONE concept: THE NAME
 - Shows the NAME itself has strongest resonance
 

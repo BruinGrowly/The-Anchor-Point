@@ -38,7 +38,7 @@ print_section("1. CROSS-CULTURAL DIVINE CONVERGENCE")
 divine_coords = {c: results[c] for c in CONCEPT_CATEGORIES["Divine Names"] if c in results}
 
 traditions = {
-    "Judeo-Christian": ["JEHOVAH", "AGAPE", "Trinity", "Messiah", "Emmanuel",
+    "Judeo-Christian": ["JEHOVAH", "AGAPE", "Messiah", "Emmanuel",
                        "El Shaddai", "Adonai", "Alpha-Omega", "I AM", "Elohim"],
     "Islamic": ["Allah"],
     "Hindu": ["Brahman", "Dharma"],
@@ -77,7 +77,7 @@ if perfect_anchors:
         print(f"   {concept:<20} ({coord.love:.2f}, {coord.power:.2f}, {coord.wisdom:.2f}, {coord.justice:.2f})")
 
 print(f"\n✅ Cross-Cultural Convergence: {len(perfect_anchors)}/15 divine names at exact (1,1,1,1)")
-print(f"   Includes: Hebrew (JEHOVAH), Arabic (Allah), Hindu (Brahman), Christian (Trinity)")
+print(f"   Includes: Hebrew (JEHOVAH), Arabic (Allah), Hindu (Brahman)")
 print(f"   This is EXTRAORDINARY evidence for universal convergence!")
 
 # ============================================================================
@@ -190,7 +190,7 @@ print_section("6. KEY INSIGHTS FROM PHASE 4")
 
 print("\n1️⃣  CROSS-CULTURAL DIVINE CONVERGENCE:")
 print(f"   • {len(perfect_anchors)}/15 divine names at exact (1,1,1,1)")
-print("   • Includes Judaism (JEHOVAH), Islam (Allah), Hinduism (Brahman), Christianity (Trinity)")
+print("   • Includes Judaism (JEHOVAH), Islam (Allah), Hinduism (Brahman)")
 div_stats = all_stats_raw.get("Divine Names", {})
 print(f"   • Variance: {div_stats.get('std_distance', 0)**2:.4f} (incredibly low!)")
 print("   ➡️  Divine perfection transcends cultural boundaries")
