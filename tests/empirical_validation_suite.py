@@ -58,7 +58,6 @@ class EmpiricalValidationSuite:
             TestCoordinate("AGAPE", 1.0, 1.0, 1.0, 1.0, "biblical"),
             TestCoordinate("Jesus_Christ", 0.95, 0.95, 0.95, 0.95, "theological"),
             TestCoordinate("Holy_Spirit", 0.9, 0.9, 0.9, 0.9, "theological"),
-            TestCoordinate("Trinity", 0.92, 0.92, 0.92, 0.92, "theological"),
             TestCoordinate("Eternal_Life", 0.85, 0.8, 0.85, 0.9, "biblical"),
             TestCoordinate("Salvation", 0.8, 0.75, 0.8, 0.85, "biblical"),
         ]

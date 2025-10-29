@@ -360,7 +360,7 @@ Meaning strength ∝ 1/distance
 
 ### 3. Divine Concepts Cluster at (1,1,1,1)
 
-**7 divine names at exact (1,1,1,1)**:
+**6 divine names at exact (1,1,1,1)**:
 - JEHOVAH
 - Allah
 - Brahman

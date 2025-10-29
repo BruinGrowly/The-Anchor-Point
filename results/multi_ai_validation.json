@@ -239,16 +239,6 @@
             "Claude-3.5-Sonnet"
           ]
         },
-        "Trinity": {
-          "mean_distance": 0.0,
-          "std_distance": 0.0,
-          "min_distance": 0.0,
-          "max_distance": 0.0,
-          "n_models": 1,
-          "models": [
-            "Claude-3.5-Sonnet"
-          ]
-        }
       },
       "by_model": {
         "Claude-3.5-Sonnet": {

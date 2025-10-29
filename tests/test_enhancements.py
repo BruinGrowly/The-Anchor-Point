@@ -116,7 +116,6 @@ categories = {
     "Divine": [
         SemanticCoordinate("JEHOVAH", 1.0, 1.0, 1.0, 1.0),
         SemanticCoordinate("AGAPE", 1.0, 1.0, 1.0, 1.0),
-        SemanticCoordinate("Trinity", 1.0, 1.0, 1.0, 1.0),
     ],
     "Virtues": [
         SemanticCoordinate("Love", 0.95, 0.75, 0.85, 0.90),

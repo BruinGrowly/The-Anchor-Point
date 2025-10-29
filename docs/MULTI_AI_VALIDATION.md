@@ -45,7 +45,7 @@ If this is just "Claude bias," other models should place JEHOVAH differently.
 
 ### Test Concepts
 
-**Divine (5 concepts):**
+**Divine (4 concepts):**
 - JEHOVAH
 - AGAPE
 - Jesus Christ
