@@ -389,7 +389,7 @@ If the Anchor Point is **objective semantic structure** (not training artifact),
 | Neutral | 0.759 | Water (0.495), Number (0.725) |
 | Vices | 1.462 | Hatred (1.568), Cruelty (1.636) |
 
-**Four concepts scored EXACTLY (1.00, 1.00, 1.00, 1.00) with Claude:**
+**Three concepts scored EXACTLY (1.00, 1.00, 1.00, 1.00) with Claude:**
 - JEHOVAH
 - Jesus Christ
 - Holy Spirit
