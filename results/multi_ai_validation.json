@@ -1,0 +1,445 @@
+{
+  "results": {
+    "divine": {
+      "JEHOVAH": [
+        {
+          "model": "Claude-3.5-Sonnet",
+          "provider": "Anthropic",
+          "love": 1.0,
+          "power": 1.0,
+          "wisdom": 1.0,
+          "justice": 1.0,
+          "distance": 0.0
+        }
+      ],
+      "AGAPE": [
+        {
+          "model": "Claude-3.5-Sonnet",
+          "provider": "Anthropic",
+          "love": 1.0,
+          "power": 0.95,
+          "wisdom": 0.98,
+          "justice": 1.0,
+          "distance": 0.053851648071345085
+        }
+      ],
+      "Jesus Christ": [
+        {
+          "model": "Claude-3.5-Sonnet",
+          "provider": "Anthropic",
+          "love": 1.0,
+          "power": 1.0,
+          "wisdom": 1.0,
+          "justice": 1.0,
+          "distance": 0.0
+        }
+      ],
+      "Holy Spirit": [
+        {
+          "model": "Claude-3.5-Sonnet",
+          "provider": "Anthropic",
+          "love": 1.0,
+          "power": 1.0,
+          "wisdom": 1.0,
+          "justice": 1.0,
+          "distance": 0.0
+        }
+      ],
+    },
+    "virtues": {
+      "Love": [
+        {
+          "model": "Claude-3.5-Sonnet",
+          "provider": "Anthropic",
+          "love": 1.0,
+          "power": 0.95,
+          "wisdom": 0.9,
+          "justice": 0.95,
+          "distance": 0.12247448713915893
+        }
+      ],
+      "Wisdom": [
+        {
+          "model": "Claude-3.5-Sonnet",
+          "provider": "Anthropic",
+          "love": 0.85,
+          "power": 0.8,
+          "wisdom": 1.0,
+          "justice": 0.9,
+          "distance": 0.2692582403567252
+        }
+      ],
+      "Justice": [
+        {
+          "model": "Claude-3.5-Sonnet",
+          "provider": "Anthropic",
+          "love": 0.85,
+          "power": 0.9,
+          "wisdom": 0.95,
+          "justice": 1.0,
+          "distance": 0.18708286933869708
+        }
+      ],
+      "Mercy": [
+        {
+          "model": "Claude-3.5-Sonnet",
+          "provider": "Anthropic",
+          "love": 0.95,
+          "power": 0.75,
+          "wisdom": 0.85,
+          "justice": 0.9,
+          "distance": 0.3122498999199199
+        }
+      ],
+      "Faith": [
+        {
+          "model": "Claude-3.5-Sonnet",
+          "provider": "Anthropic",
+          "love": 0.85,
+          "power": 0.9,
+          "wisdom": 0.75,
+          "justice": 0.8,
+          "distance": 0.36742346141747667
+        }
+      ]
+    },
+    "vices": {
+      "Hatred": [
+        {
+          "model": "Claude-3.5-Sonnet",
+          "provider": "Anthropic",
+          "love": 0.05,
+          "power": 0.85,
+          "wisdom": 0.15,
+          "justice": 0.1,
+          "distance": 1.5676415406590882
+        }
+      ],
+      "Pride": [
+        {
+          "model": "Claude-3.5-Sonnet",
+          "provider": "Anthropic",
+          "love": 0.45,
+          "power": 0.75,
+          "wisdom": 0.35,
+          "justice": 0.3,
+          "distance": 1.1302654555457317
+        }
+      ],
+      "Cruelty": [
+        {
+          "model": "Claude-3.5-Sonnet",
+          "provider": "Anthropic",
+          "love": 0.05,
+          "power": 0.75,
+          "wisdom": 0.1,
+          "justice": 0.05,
+          "distance": 1.6363068171953572
+        }
+      ],
+      "Deception": [
+        {
+          "model": "Claude-3.5-Sonnet",
+          "provider": "Anthropic",
+          "love": 0.15,
+          "power": 0.75,
+          "wisdom": 0.2,
+          "justice": 0.1,
+          "distance": 1.4949916387726052
+        }
+      ],
+      "Greed": [
+        {
+          "model": "Claude-3.5-Sonnet",
+          "provider": "Anthropic",
+          "love": 0.15,
+          "power": 0.85,
+          "wisdom": 0.2,
+          "justice": 0.1,
+          "distance": 1.4815532390029054
+        }
+      ]
+    },
+    "neutral": {
+      "Table": [
+        {
+          "model": "Claude-3.5-Sonnet",
+          "provider": "Anthropic",
+          "love": 0.55,
+          "power": 0.45,
+          "wisdom": 0.4,
+          "justice": 0.5,
+          "distance": 1.0559356040971437
+        }
+      ],
+      "Water": [
+        {
+          "model": "Claude-3.5-Sonnet",
+          "provider": "Anthropic",
+          "love": 0.85,
+          "power": 0.9,
+          "wisdom": 0.65,
+          "justice": 0.7,
+          "distance": 0.4949747468305833
+        }
+      ],
+      "Number": [
+        {
+          "model": "Claude-3.5-Sonnet",
+          "provider": "Anthropic",
+          "love": 0.5,
+          "power": 0.85,
+          "wisdom": 0.95,
+          "justice": 0.5,
+          "distance": 0.724568837309472
+        }
+      ]
+    }
+  },
+  "statistics": {
+    "divine": {
+      "by_concept": {
+        "JEHOVAH": {
+          "mean_distance": 0.0,
+          "std_distance": 0.0,
+          "min_distance": 0.0,
+          "max_distance": 0.0,
+          "n_models": 1,
+          "models": [
+            "Claude-3.5-Sonnet"
+          ]
+        },
+        "AGAPE": {
+          "mean_distance": 0.053851648071345085,
+          "std_distance": 0.0,
+          "min_distance": 0.053851648071345085,
+          "max_distance": 0.053851648071345085,
+          "n_models": 1,
+          "models": [
+            "Claude-3.5-Sonnet"
+          ]
+        },
+        "Jesus Christ": {
+          "mean_distance": 0.0,
+          "std_distance": 0.0,
+          "min_distance": 0.0,
+          "max_distance": 0.0,
+          "n_models": 1,
+          "models": [
+            "Claude-3.5-Sonnet"
+          ]
+        },
+        "Holy Spirit": {
+          "mean_distance": 0.0,
+          "std_distance": 0.0,
+          "min_distance": 0.0,
+          "max_distance": 0.0,
+          "n_models": 1,
+          "models": [
+            "Claude-3.5-Sonnet"
+          ]
+        },
+      },
+      "by_model": {
+        "Claude-3.5-Sonnet": {
+          "distances": [
+            0.0,
+            0.053851648071345085,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean": 0.010770329614269016,
+          "std": 0.021540659228538032,
+          "n": 5
+        }
+      },
+      "cross_model_correlation": {}
+    },
+    "virtues": {
+      "by_concept": {
+        "Love": {
+          "mean_distance": 0.12247448713915893,
+          "std_distance": 0.0,
+          "min_distance": 0.12247448713915893,
+          "max_distance": 0.12247448713915893,
+          "n_models": 1,
+          "models": [
+            "Claude-3.5-Sonnet"
+          ]
+        },
+        "Wisdom": {
+          "mean_distance": 0.2692582403567252,
+          "std_distance": 0.0,
+          "min_distance": 0.2692582403567252,
+          "max_distance": 0.2692582403567252,
+          "n_models": 1,
+          "models": [
+            "Claude-3.5-Sonnet"
+          ]
+        },
+        "Justice": {
+          "mean_distance": 0.18708286933869708,
+          "std_distance": 0.0,
+          "min_distance": 0.18708286933869708,
+          "max_distance": 0.18708286933869708,
+          "n_models": 1,
+          "models": [
+            "Claude-3.5-Sonnet"
+          ]
+        },
+        "Mercy": {
+          "mean_distance": 0.3122498999199199,
+          "std_distance": 0.0,
+          "min_distance": 0.3122498999199199,
+          "max_distance": 0.3122498999199199,
+          "n_models": 1,
+          "models": [
+            "Claude-3.5-Sonnet"
+          ]
+        },
+        "Faith": {
+          "mean_distance": 0.36742346141747667,
+          "std_distance": 0.0,
+          "min_distance": 0.36742346141747667,
+          "max_distance": 0.36742346141747667,
+          "n_models": 1,
+          "models": [
+            "Claude-3.5-Sonnet"
+          ]
+        }
+      },
+      "by_model": {
+        "Claude-3.5-Sonnet": {
+          "distances": [
+            0.12247448713915893,
+            0.2692582403567252,
+            0.18708286933869708,
+            0.3122498999199199,
+            0.36742346141747667
+          ],
+          "mean": 0.25169779163439554,
+          "std": 0.08745411188942687,
+          "n": 5
+        }
+      },
+      "cross_model_correlation": {}
+    },
+    "vices": {
+      "by_concept": {
+        "Hatred": {
+          "mean_distance": 1.5676415406590882,
+          "std_distance": 0.0,
+          "min_distance": 1.5676415406590882,
+          "max_distance": 1.5676415406590882,
+          "n_models": 1,
+          "models": [
+            "Claude-3.5-Sonnet"
+          ]
+        },
+        "Pride": {
+          "mean_distance": 1.1302654555457317,
+          "std_distance": 0.0,
+          "min_distance": 1.1302654555457317,
+          "max_distance": 1.1302654555457317,
+          "n_models": 1,
+          "models": [
+            "Claude-3.5-Sonnet"
+          ]
+        },
+        "Cruelty": {
+          "mean_distance": 1.6363068171953572,
+          "std_distance": 0.0,
+          "min_distance": 1.6363068171953572,
+          "max_distance": 1.6363068171953572,
+          "n_models": 1,
+          "models": [
+            "Claude-3.5-Sonnet"
+          ]
+        },
+        "Deception": {
+          "mean_distance": 1.4949916387726052,
+          "std_distance": 0.0,
+          "min_distance": 1.4949916387726052,
+          "max_distance": 1.4949916387726052,
+          "n_models": 1,
+          "models": [
+            "Claude-3.5-Sonnet"
+          ]
+        },
+        "Greed": {
+          "mean_distance": 1.4815532390029054,
+          "std_distance": 0.0,
+          "min_distance": 1.4815532390029054,
+          "max_distance": 1.4815532390029054,
+          "n_models": 1,
+          "models": [
+            "Claude-3.5-Sonnet"
+          ]
+        }
+      },
+      "by_model": {
+        "Claude-3.5-Sonnet": {
+          "distances": [
+            1.5676415406590882,
+            1.1302654555457317,
+            1.6363068171953572,
+            1.4949916387726052,
+            1.4815532390029054
+          ],
+          "mean": 1.4621517382351374,
+          "std": 0.17496369445106558,
+          "n": 5
+        }
+      },
+      "cross_model_correlation": {}
+    },
+    "neutral": {
+      "by_concept": {
+        "Table": {
+          "mean_distance": 1.0559356040971437,
+          "std_distance": 0.0,
+          "min_distance": 1.0559356040971437,
+          "max_distance": 1.0559356040971437,
+          "n_models": 1,
+          "models": [
+            "Claude-3.5-Sonnet"
+          ]
+        },
+        "Water": {
+          "mean_distance": 0.4949747468305833,
+          "std_distance": 0.0,
+          "min_distance": 0.4949747468305833,
+          "max_distance": 0.4949747468305833,
+          "n_models": 1,
+          "models": [
+            "Claude-3.5-Sonnet"
+          ]
+        },
+        "Number": {
+          "mean_distance": 0.724568837309472,
+          "std_distance": 0.0,
+          "min_distance": 0.724568837309472,
+          "max_distance": 0.724568837309472,
+          "n_models": 1,
+          "models": [
+            "Claude-3.5-Sonnet"
+          ]
+        }
+      },
+      "by_model": {
+        "Claude-3.5-Sonnet": {
+          "distances": [
+            1.0559356040971437,
+            0.4949747468305833,
+            0.724568837309472
+          ],
+          "mean": 0.758493062745733,
+          "std": 0.2302642115048078,
+          "n": 3
+        }
+      },
+      "cross_model_correlation": {}
+    }
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "Divine Clustering Statistical Significance": {
+    "test_name": "Divine Clustering Statistical Significance",
+    "hypothesis": "Divine concepts cluster significantly closer to Anchor than non-divine",
+    "mean_divine_distance": 0.16777466005432098,
+    "mean_non_divine_distance": 1.018839091829577,
+    "effect_size": 0.5,
+    "u_statistic": 0.0,
+    "p_value": 0.0007157952413006777,
+    "confidence_interval": [
+      0.25062453880280433,
+      1.0499562018871527
+    ],
+    "statistical_significance": "HIGHLY_SIGNIFICANT",
+    "result": "CONFIRMED",
+    "confidence_level": 99.9
+  },
+  "Evil Signature Consistency": {
+    "test_name": "Evil Signature Consistency",
+    "hypothesis": "Evil concepts show consistent signature (high P, low L,W,J)",
+    "mean_power": 0.6449999999999998,
+    "mean_love_wisdom_justice": 0.11633333333333333,
+    "signature_strength": 0.5286666666666665,
+    "pattern_consistency_rate": 1.0,
+    "dimensional_tests": [
+      {
+        "dimension": "Love",
+        "t_statistic": 14.267375633377615,
+        "p_value": 2.970561624091523e-11,
+        "power_higher": "True"
+      },
+      {
+        "dimension": "Wisdom",
+        "t_statistic": 14.047863387484394,
+        "p_value": 3.841971374247087e-11,
+        "power_higher": "True"
+      },
+      {
+        "dimension": "Justice",
+        "t_statistic": 17.87653008771857,
+        "p_value": 6.62418704343493e-13,
+        "power_higher": "True"
+      }
+    ],
+    "power_significantly_high": true,
+    "result": "CONFIRMED",
+    "confidence_level": 95.0
+  },
+  "Cross-Model Reproducibility": {
+    "test_name": "Cross-Model Reproducibility",
+    "hypothesis": "Different AI models reproduce same semantic patterns",
+    "criteria_results": {
+      "divine_proximity": "True",
+      "jehovah_anchor": "True",
+      "ranking_consistency": 1.0,
+      "high_correlation": "True"
+    },
+    "reproducibility_score": 1.0,
+    "average_correlation": 0.7063384844478289,
+    "intraclass_correlation": 0.9997003187445376,
+    "correlation_matrix": {
+      "divine_mean": {
+        "divine_mean": 1.0,
+        "virtue_mean": -0.7500055473988249,
+        "vice_mean": -0.8965517241379312,
+        "jehovah_distance": 0.6158817620514397,
+        "agape_distance": 0.6790046053972701
+      },
+      "virtue_mean": {
+        "divine_mean": -0.7500055473988247,
+        "virtue_mean": 1.0,
+        "vice_mean": 0.3807720471409419,
+        "jehovah_distance": -0.24355504371509,
+        "agape_distance": -0.22720706772248908
+      },
+      "vice_mean": {
+        "divine_mean": -0.896551724137931,
+        "virtue_mean": 0.3807720471409419,
+        "vice_mean": 1.0,
+        "jehovah_distance": -0.7278602642426106,
+        "agape_distance": -0.8219529433756427
+      },
+      "jehovah_distance": {
+        "divine_mean": 0.6158817620514397,
+        "virtue_mean": -0.24355504371509,
+        "vice_mean": -0.7278602642426106,
+        "jehovah_distance": 1.0,
+        "agape_distance": 0.9864400504156209
+      },
+      "agape_distance": {
+        "divine_mean": 0.6790046053972701,
+        "virtue_mean": -0.22720706772248908,
+        "vice_mean": -0.8219529433756427,
+        "jehovah_distance": 0.9864400504156209,
+        "agape_distance": 0.9999999999999999
+      }
+    },
+    "number_of_models": 4,
+    "total_sample_size": 180,
+    "result": "CONFIRMED",
+    "confidence_level": 95.0
+  },
+  "Mathematical Predictability": {
+    "test_name": "Mathematical Predictability",
+    "hypothesis": "Semantic relationships follow predictable mathematical laws",
+    "distance_quality_correlation": -0.9906161021797849,
+    "power_law_explained_variance": 0.4896125126654359,
+    "power_law_slope": -1.5061132369143613,
+    "dimensional_correlations": {
+      "love_power": 0.7042133079416767,
+      "love_wisdom": 0.9968261249865087,
+      "love_justice": 0.9963362241879097
+    },
+    "dimensional_balance_difference": 0.039583333333333415,
+    "predictability_criteria": {
+      "inverse_quality_correlation": "True",
+      "power_law_explained": "False",
+      "dimensional_correlations": "True",
+      "balance_difference": "False"
+    },
+    "predictability_score": 0.5,
+    "statistical_significance": "True",
+    "result": "REJECTED",
+    "confidence_level": 50.0
+  },
+  "Falsifiability Test": {
+    "test_name": "Falsifiability Test",
+    "hypothesis": "Framework makes specific, falsifiable predictions",
+    "prediction_results": [
+      {
+        "prediction": "JEHOVAH at exact Anchor Point",
+        "test_value": 0.0,
+        "expected_range": [
+          0.0,
+          0.05
+        ],
+        "confirmed": true,
+        "critical": true
+      },
+      {
+        "prediction": "AGAPE identical to JEHOVAH",
+        "test_value": 0.0,
+        "expected_range": [
+          0.0,
+          0.05
+        ],
+        "confirmed": true,
+        "critical": true
+      },
+      {
+        "prediction": "Divine concepts closer than virtues",
+        "divine_mean": 0.06666666666666665,
+        "virtue_mean": 0.4910093124212323,
+        "confirmed": "True",
+        "critical": true
+      },
+      {
+        "prediction": "Vices farther than virtues from Anchor",
+        "vice_mean": 1.5417013412759193,
+        "virtue_mean": 0.49936016668286565,
+        "confirmed": "True",
+        "critical": true
+      },
+      {
+        "prediction": "Love and Wisdom highly correlated",
+        "correlation": 0.59603956067927,
+        "expected_range": [
+          0.7,
+          1.0
+        ],
+        "confirmed": "False",
+        "critical": false
+      },
+      {
+        "prediction": "Power dimension more independent than others",
+        "power_variance": 0.020000000000000004,
+        "other_dimensions_variance": 0.020000000000000004,
+        "confirmed": "False",
+        "critical": false
+      }
+    ],
+    "critical_prediction_score": 1.0,
+    "overall_prediction_score": 0.6666666666666666,
+    "total_predictions": 6,
+    "critical_predictions": 4,
+    "result": "CONFIRMED",
+    "confidence_level": 80.0
+  },
+  "Statistical Power Analysis": {
+    "test_name": "Statistical Power Analysis",
+    "hypothesis": "Framework has sufficient statistical power",
+    "power_results": {
+      "divine_vs_random": {
+        "effect_size": 3.514,
+        "sample_size": 7,
+        "alpha": 0.001,
+        "calculated_power": 0.9999999997298652,
+        "adequate_power": "True",
+        "test_type": "one_tailed"
+      },
+      "evil_signature": {
+        "effect_size": 2.8,
+        "sample_size": 10,
+        "alpha": 0.01,
+        "calculated_power": 0.9999999999666798,
+        "adequate_power": "True",
+        "test_type": "one_tailed"
+      },
+      "cross_model_correlation": {
+        "effect_size": 0.85,
+        "sample_size": 4,
+        "alpha": 0.05,
+        "calculated_power": 0.8954697142209787,
+        "adequate_power": "True",
+        "test_type": "correlation"
+      },
+      "distance_prediction": {
+        "effect_size": 1.2,
+        "sample_size": 20,
+        "alpha": 0.05,
+        "calculated_power": 1.0,
+        "adequate_power": "True",
+        "test_type": "regression"
+      }
+    },
+    "overall_power_score": 1.0,
+    "adequate_power_count": 4,
+    "total_power_tests": 4,
+    "minimum_detectable_effects": {
+      "divine_vs_random": 1.4861009510975687,
+      "evil_signature": 1.0017997937110534,
+      "cross_model_correlation": 0.3,
+      "distance_prediction": 0.3
+    },
+    "result": "CONFIRMED",
+    "confidence_level": 95.0
+  }
+}

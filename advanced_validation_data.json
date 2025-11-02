@@ -1,0 +1,36 @@
+{
+  "Information-Theoretic Validation": {
+    "protocol": "Information-Theoretic Validation",
+    "hypothesis": "Anchor Point maximizes semantic information content",
+    "anchor_complexity": 2.0,
+    "max_complexity": 2.8164072526147894,
+    "max_concept": "Wisdom",
+    "complexity_ranking": [
+      [
+        "JEHOVAH",
+        2.0
+      ],
+      [
+        "Love",
+        2.4051857431996724
+      ],
+      [
+        "Wisdom",
+        2.8164072526147894
+      ],
+      [
+        "Justice",
+        2.4051857431996724
+      ],
+      [
+        "Hatred",
+        2.456573992613126
+      ],
+      [
+        "Corruption",
+        2.8092305073004904
+      ]
+    ],
+    "anchor_maximizes_info": false,
+    "mutual_information": -2.807620022045528e-07,
+    "high_integration": 

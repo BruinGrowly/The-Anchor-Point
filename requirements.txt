@@ -1,0 +1,45 @@
+# Core dependencies for Anchor Point research
+
+# Data science and numerical computing
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.14.0
+
+# Statistical analysis
+statsmodels>=0.14.0
+scikit-learn>=1.3.0
+
+# Natural language processing (for semantic analysis)
+nltk>=3.8.0
+spacy>=3.5.0
+
+# Hashing and cryptography
+
+# Database and data storage
+sqlalchemy>=2.0.0
+
+# Testing
+pytest>=7.3.0
+pytest-cov>=4.1.0
+
+# Jupyter notebooks for exploration
+jupyter>=1.0.0
+ipykernel>=6.23.0
+nbformat>=5.9.0
+
+# Documentation
+sphinx>=6.2.0
+sphinx-rtd-theme>=1.2.0
+
+# Utilities
+tqdm>=4.65.0  # Progress bars
+python-dotenv>=1.0.0  # Environment variables
+pyyaml>=6.0  # Configuration files
+
+# API integrations (Phase 3)
+anthropic>=0.18.0  # Claude API for real semantic analysis

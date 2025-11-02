@@ -1,0 +1,62 @@
+{
+  "Nonlinear Semantic Decay": {
+    "test_name": "Nonlinear Semantic Decay",
+    "hypothesis": "Semantic distances follow nonlinear decay patterns",
+    "sigmoidal_r2": -0.027348191938663335,
+    "linear_r2": 0.9979194038269927,
+    "improvement_over_linear": -1.025267595765656,
+    "preferred_model": "linear",
+    "result": "MIXED",
+    "confidence_level": 50.0
+  },
+  "Dimensional Interaction Dynamics": {
+    "test_name": "Dimensional Interaction Dynamics",
+    "hypothesis": "Dimensions interact through complex nonlinear relationships",
+    "best_model": {
+      "name": "all_dimensions",
+      "r_squared": 0.9984270919167244,
+      "power": 0.9984270919167244
+    },
+    "divine_coupling_preference": "False",
+    "divine_LW_corr": 1.0,
+    "divine_LP_corr": 1.0,
+    "dimensional_integrity": "False",
+    "evil_variance": 0.004444444444444445,
+    "good_variance": 0.015208333333333334,
+    "result": "REJECTED",
+    "confidence_level": 50.0
+  },
+  "Information-Theoretic Optimization": {
+    "test_name": "Information-Theoretic Optimization",
+    "hypothesis": "Anchor Point optimizes information-theoretic measures",
+    "optimization_tests": {
+      "entropy_optimal": "True",
+      "integration_maximal": "False"
+    },
+    "optimization_rate": 0.5,
+    "anchor_measures": {
+      "name": "Anchor",
+      "entropy": 2.0,
+      "integration": NaN,
+      "coords": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "result": "CONFIRMED",
+    "confidence_level": 75.0
+  },
+  "Geometric Pattern Analysis": {
+    "test_name": "Geometric Pattern Analysis",
+    "hypothesis": "Semantic relationships follow geometric patterns",
+    "divine_mean_score": 0.5564127489098364,
+    "other_mean_score": 0.6279327112218922,
+    "max_golden_score": 0.5514312570800038,
+    "divine_superiority": "False",
+    "golden_pattern_significant": "False",
+    "result": "REJECTED",
+    "confidence_level": 50.0
+  }
+}
